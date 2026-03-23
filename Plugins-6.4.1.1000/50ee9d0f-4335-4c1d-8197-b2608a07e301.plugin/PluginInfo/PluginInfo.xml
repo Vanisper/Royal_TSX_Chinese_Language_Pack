@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>50ee9d0f-4335-4c1d-8197-b2608a07e301</ID>
-    <Name>VNC (based on RoyalVNC)</Name>
-    <ShortDescription>Connect to Linux, Windows and macOS using VNC.</ShortDescription>
+    <Name>VNC（基于 RoyalVNC）</Name>
+    <ShortDescription>使用 VNC 连接到 Linux、Windows 和 macOS。</ShortDescription>
     <Description><![CDATA[
-			<i>Connect to Linux, Windows and macOS Computers using VNC.</i>
-			<br /><br />
-			The <strong>RoyalVNC</strong> based VNC plugin enables you to connect to remote hosts running <strong>VNC</strong> or <strong>Apple Remote Desktop/Screen Sharing</strong>.
-			<br /><br />
-			<strong>Security</strong>
-			<br />
-			<ul>
-				<li>macOS authentication support</li>
-				<li>VNC authentication support</li>
-				<li>UltraVNC MS-Logon II authentication support</li>
-			</ul>
-			<br />
-			<strong>Advanced Features</strong>
-			<br />
-			<ul>
-				<li>Clipboard sharing support</li>
-				<li>Screen scaling support</li>
-				<li>Customizable keyboard behavior</li>
-				<li>Secure Gateway support</li>
-			</ul>
-		]]></Description>
+            <i>使用 VNC 连接到 Linux、Windows 和 macOS 计算机。</i>
+            <br /><br />
+            基于 <strong>RoyalVNC</strong> 的 VNC 插件使您能够连接运行 <strong>VNC</strong> 或 <strong>Apple 远程桌面/屏幕共享</strong> 的远程主机。
+            <br /><br />
+            <strong>安全性</strong>
+            <br />
+            <ul>
+            	<li>支持 macOS 身份验证</li>
+            	<li>支持 VNC 身份验证</li>
+            	<li>支持 UltraVNC MS-Logon II 身份验证</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>支持剪贴板共享</li>
+            	<li>支持屏幕缩放</li>
+            	<li>可自定义键盘行为</li>
+            	<li>支持安全网关</li>
+            </ul>
+        ]]></Description>
     <SupportedProtocols>VNC</SupportedProtocols>
     <ObjectTypeName>RoyalVNCConnection</ObjectTypeName>
     <Version>6.4.0.1000</Version>

@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>7c84a650-9896-11e1-a8b0-0800200c9a66</ID>
-    <Name>Terminal (based on iTerm2)</Name>
-    <ShortDescription>Connect to SSH, Telnet and Serial Port hosts.</ShortDescription>
+    <Name>终端（基于 iTerm2）</Name>
+    <ShortDescription>SSH、Telnet、串口连接和自定义终端尽在指尖。</ShortDescription>
     <Description><![CDATA[
-			<i>SSH, Telnet, Serial Port connections and custom terminals at your fingertips.</i>
-			<br /><br />
-			The <strong>iTerm2</strong> based Terminal Plugin supports <strong>SSH</strong>, <strong>Telnet</strong>, <strong>Serial port (RS232)</strong> or any other terminal-based connection type using a <strong>Custom Terminal</strong>.
-			<br /><br />
-			<strong>Customization</strong>
-			<br />
-			<ul>
-				<li>Font, font size and styles can be customized</li>
-				<li>Configurable ANSI color palette</li>
-				<li>Support for iTerm2 color schemes</li>
-			</ul>
-			<br />
-			<strong>Input</strong>
-			<br />
-			<ul>
-				<li>Support for configuring key mappings</li>
-				<li>Use key sequence tasks to automate keyboard input</li>
-				<li>Customizable keyboard behavior</li>
-				<li>Customizable scrollback lines</li>
-			</ul>
-			<br />
-			<strong>Log Management</strong>
-			<br />
-			<ul>
-				<li>Create and organize log files for documentation needs</li>
-				<li>Log dashboard provides easy log file access and management</li>
-				<li>View, search and export log files</li>
-			</ul>
-			<br />
-			<strong>Advanced Features</strong>
-			<br />
-			<ul>
-				<li>Support for embedding private key files into documents</li>
-				<li>X11 forwarding support</li>
-				<li>Encoding and terminal type configuration</li>
-				<li>Connection-specific settings (such as keepalives)</li>
-				<li>Tunnel configuration</li>
-				<li>Configuration for serial port communication</li>
-				<li>Support for iTerm2 Triggers</li>
-				<li>Support for iTerm2 Shell Integration Features</li>
-				<li>Secure Gateway support</li>
-			</ul>
-		]]></Description>
+            <i>SSH、Telnet、串口连接和自定义终端尽在指尖。</i>
+            <br /><br />
+            基于 <strong>iTerm2</strong> 的终端插件支持 <strong>SSH</strong>、<strong>Telnet</strong>、<strong>串口（RS232）</strong>，以及任何可通过 <strong>自定义终端</strong> 使用的其他基于终端的连接类型。
+            <br /><br />
+            <strong>自定义</strong>
+            <br />
+            <ul>
+            	<li>可自定义字体、字号和样式</li>
+            	<li>可配置 ANSI 调色板</li>
+            	<li>支持 iTerm2 配色方案</li>
+            </ul>
+            <br />
+            <strong>输入</strong>
+            <br />
+            <ul>
+            	<li>支持配置按键映射</li>
+            	<li>使用按键序列任务自动化键盘输入</li>
+            	<li>可自定义键盘行为</li>
+            	<li>可自定义滚动缓冲行数</li>
+            </ul>
+            <br />
+            <strong>日志管理</strong>
+            <br />
+            <ul>
+            	<li>创建并整理日志文件以满足文档记录需求</li>
+            	<li>日志仪表板提供对日志文件的便捷访问和管理</li>
+            	<li>查看、搜索和导出日志文件</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>支持将私钥文件嵌入文档</li>
+            	<li>支持 X11 转发</li>
+            	<li>编码和终端类型配置</li>
+            	<li>连接专属设置（例如 keepalive）</li>
+            	<li>隧道配置</li>
+            	<li>串口通信配置</li>
+            	<li>支持 iTerm2 Triggers</li>
+            	<li>支持 iTerm2 Shell Integration 功能</li>
+            	<li>支持安全网关</li>
+            </ul>
+        ]]></Description>
     <SupportedProtocols>SSH;Telnet</SupportedProtocols>
     <ObjectTypeName>RoyalSSHConnection</ObjectTypeName>
     <Version>6.4.0.1000</Version>

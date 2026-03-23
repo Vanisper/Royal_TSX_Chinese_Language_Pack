@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>3e63afa6-61f6-4f9f-85bf-a773ab0408b0</ID>
-    <Name>File Transfer</Name>
-    <ShortDescription>Browse and transfer files using FTP, SFTP and SCP.</ShortDescription>
+    <Name>文件传输</Name>
+    <ShortDescription>使用 FTP、SFTP 和 SCP 浏览并传输文件。</ShortDescription>
     <Description><![CDATA[
-			<i>Browse and transfer files using FTP, SFTP and SCP.</i>
-			<br /><br />
-			The File Transfer Plugin for Royal TSX provides support for browsing and transferring files on <strong>FTP</strong>, <strong>SFTP</strong> and <strong>SCP</strong> file servers.
-			<br /><br />
-			<strong>General</strong>
-			<br />
-			<ul>
-				<li>Support for FTP</li>
-				<li>Support for FTP with Implicit SSL</li>
-				<li>Support for FTP with Explicit TLS/SSL</li>
-				<li>Support for SFTP</li>
-				<li>Support for SCP</li>
-				<li>Dual-pane file browser</li>
-				<li>Live editing (automatically upload locally changed files)</li>
-				<li>Quick Look Support</li>
-				<li>Support for Bonjour discovery of FTP and SFTP hosts</li>
-			</ul>
-			<br />
-			<strong>Advanced Features</strong>
-			<br />
-			<ul>
-				<li>Support for Passive Mode</li>
-				<li>Support for specifying initial paths</li>
-				<li>Support for showing hidden files and directories</li>
-				<li>Support for overwriting or skipping all files of a transfer</li>
-				<li>Support for restoring timestamps after file transfers</li>
-				<li>Support viewing and changing permissions</li>
-				<li>Support for using large buffers for file transfers</li>
-				<li>Support for specifying SFTP custom command</li>
-				<li>Certificate validation</li>
-				<li>Proxy support</li>
-				<li>Secure Gateway support</li>
-			</ul>
-		]]></Description>
+            <i>使用 FTP、SFTP 和 SCP 浏览并传输文件。</i>
+            <br /><br />
+            Royal TSX 的文件传输插件支持在 <strong>FTP</strong>、<strong>SFTP</strong> 和 <strong>SCP</strong> 文件服务器上浏览和传输文件。
+            <br /><br />
+            <strong>常规</strong>
+            <br />
+            <ul>
+            	<li>支持 FTP</li>
+            	<li>支持使用隐式 SSL 的 FTP</li>
+            	<li>支持使用显式 TLS/SSL 的 FTP</li>
+            	<li>支持 SFTP</li>
+            	<li>支持 SCP</li>
+            	<li>双窗格文件浏览器</li>
+            	<li>实时编辑（自动上传本地更改的文件）</li>
+            	<li>支持 Quick Look</li>
+            	<li>支持通过 Bonjour 发现 FTP 和 SFTP 主机</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>支持被动模式</li>
+            	<li>支持指定初始路径</li>
+            	<li>支持显示隐藏文件和目录</li>
+            	<li>支持在传输时统一覆盖或跳过所有文件</li>
+            	<li>支持在文件传输后恢复时间戳</li>
+            	<li>支持查看和更改权限</li>
+            	<li>支持在文件传输中使用大缓冲区</li>
+            	<li>支持指定 SFTP 自定义命令</li>
+            	<li>证书验证</li>
+            	<li>代理支持</li>
+            	<li>支持安全网关</li>
+            </ul>
+        ]]></Description>
     <SupportedProtocols>FileTransfer</SupportedProtocols>
     <ObjectTypeName>RoyalFileTransferConnection</ObjectTypeName>
     <Version>6.4.1.1000</Version>
@@ -49,7 +49,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>Closed source</LicenseType>
+    <LicenseType>闭源</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>FileTransferPlugin</PluginFrameworks>
 </PluginInfo>

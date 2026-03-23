@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>1c919170-3ee3-437f-9326-a2316a9293a0</ID>
-    <Name>Remote Desktop (based on FreeRDP)</Name>
-    <ShortDescription>Connect to Windows computers using RDP.</ShortDescription>
+    <Name>远程桌面（基于 FreeRDP）</Name>
+    <ShortDescription>使用 RDP 连接到 Windows 计算机。</ShortDescription>
     <Description><![CDATA[
-			<i>Connect to Windows Computers or to Hyper-V instance consoles using the Remote Desktop Protocol.</i>
-			<br /><br />
-			The <strong>FreeRDP</strong> based Remote Desktop Plugin for Royal TSX provides the most comprehensive set of features for integrated <strong>Remote Desktop Connections (RDP)</strong> available in the industry. On top of that, Royal TSX provides unique management capabilities to handle terminal sessions and control Hyper-V instances.
-			<br /><br />
-			<strong>Security</strong>
-			<br />
-			<ul>
-				<li>Network Level Authentication (NLA) support</li>
-				<li>Remote Desktop Gateway support</li>
-				<li>Secure Gateway support</li>
-				<li>HTTP and SOCKS Proxy support</li>
-				<li>Credential management support for automatic logon and Gateway credentials</li>
-				<li>Smart Card redirection support (Experimental)</li>
-			</ul>
-			<br />
-			<strong>Hyper-V Management</strong>
-			<br />
-			<ul>
-				<li>Requires <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-				<li>List all Hyper-V instances</li>
-				<li>Connect to the console of any Hyper-V instance</li>
-				<li>Create new connections to the console or computer based on a Hyper-V instance</li>
-				<li>Manage Hyper-V instances (stop, start, pause, save state)</li>
-			</ul>
-			<br />
-			<strong>Terminal Services Management</strong>
-			<br />
-			<ul>
-				<li>Requires <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-				<li>List all terminal service sessions</li>
-				<li>Reset (force logoff) terminal service sessions</li>
-				<li>Send messages to terminal service sessions</li>
-				<li>Restart the server</li>
-			</ul>
-			<br />
-			<strong>Advanced Features</strong>
-			<br />
-			<ul>
-				<li>Support for automatic DPI scaling in HiDPI/Retina sessions</li>
-				<li>Support for zooming in and out of HiDPI/Retina sessions</li>
-				<li>Display options with Smart Reconnect and Smart Sizing</li>
-				<li>Full screen with multi-monitor support</li>
-				<li>Compression, Caching, Load Balance Info and more</li>
-				<li>Performance settings</li>
-				<li>Drive, printer, clipboard, smart card (experimental), audio and microphone redirection</li>
-				<li>Change the keyboard layout and pass through Windows keys or accelerators</li>
-				<li>Use macOS keyboard shortcuts for common operations like copy and paste</li>
-				<li>Support for remapping modifier keys</li>
-				<li>Start program configuration</li>
-			</ul>
-		]]></Description>
+            <i>使用远程桌面协议连接到 Windows 计算机或 Hyper-V 实例控制台。</i>
+            <br /><br />
+            Royal TSX 基于 <strong>FreeRDP</strong> 的远程桌面插件，提供业内功能最全面的集成式 <strong>远程桌面连接（RDP）</strong>。除此之外，Royal TSX 还提供独特的管理能力，可用于处理终端会话并控制 Hyper-V 实例。
+            <br /><br />
+            <strong>安全性</strong>
+            <br />
+            <ul>
+            	<li>支持网络级别身份验证（NLA）</li>
+            	<li>支持远程桌面网关</li>
+            	<li>支持安全网关</li>
+            	<li>支持 HTTP 和 SOCKS 代理</li>
+            	<li>支持用于自动登录和网关凭据的凭据管理</li>
+            	<li>支持智能卡重定向（实验性）</li>
+            </ul>
+            <br />
+            <strong>Hyper-V 管理</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>列出所有 Hyper-V 实例</li>
+            	<li>连接到任意 Hyper-V 实例的控制台</li>
+            	<li>基于 Hyper-V 实例为控制台或计算机创建新的连接</li>
+            	<li>管理 Hyper-V 实例（停止、启动、暂停、保存状态）</li>
+            </ul>
+            <br />
+            <strong>终端服务管理</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>列出所有终端服务会话</li>
+            	<li>重置终端服务会话（强制注销）</li>
+            	<li>向终端服务会话发送消息</li>
+            	<li>重启服务器</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>支持在 HiDPI/Retina 会话中自动进行 DPI 缩放</li>
+            	<li>支持在 HiDPI/Retina 会话中放大和缩小</li>
+            	<li>显示选项支持智能重连和智能缩放</li>
+            	<li>支持多显示器全屏</li>
+            	<li>支持压缩、缓存、负载均衡信息等</li>
+            	<li>性能设置</li>
+            	<li>支持驱动器、打印机、剪贴板、智能卡（实验性）、音频和麦克风重定向</li>
+            	<li>可更改键盘布局并传递 Windows 键或快捷键</li>
+            	<li>可使用 macOS 键盘快捷键执行复制、粘贴等常用操作</li>
+            	<li>支持重新映射修饰键</li>
+            	<li>启动程序配置</li>
+            </ul>
+        ]]></Description>
     <SupportedProtocols>RDP</SupportedProtocols>
     <ObjectTypeName>RoyalRDSConnection</ObjectTypeName>
     <Version>6.4.0.1000</Version>
@@ -66,7 +66,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>Closed source</LicenseType>
+    <LicenseType>闭源</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>FreeRDPPlugin</PluginFrameworks>
 </PluginInfo>

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>ecda13f4-a5b5-4791-a027-b947008c943f</ID>
-    <Name>Terminal Services</Name>
-    <ShortDescription>View and manage terminal service sessions.</ShortDescription>
+    <Name>终端服务</Name>
+    <ShortDescription>查看并管理终端服务会话。</ShortDescription>
     <Description><![CDATA[
-			<i>View and manage terminal service sessions from one or more computers.</i>
-			<br /><br />
-			The <strong>Terminal Services</strong> management connection allows you to manage terminal service sessions from multiple computers all in one view. A variety of important management tasks such as reset (force logoff), send message and restart server, are available.
-			<br /><br />
-			<strong>General</strong>
-			<br />
-			<ul>
-				<li>Requires <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-				<li>Track and list all terminal service sessions</li>
-				<li>Automatically display data in the dashboard</li>
-				<li>Reset (force logoff) terminal service sessions</li>
-				<li>Send a message to terminal service sessions</li>
-				<li>Restart the server</li>
-			</ul>
-			<br />
-			<strong>Advanced Features</strong>
-			<br />
-			<ul>
-				<li>Quick search</li>
-				<li>Column filter</li>
-			</ul>
-		]]></Description>
+            <i>查看并管理来自一台或多台计算机的终端服务会话。</i>
+            <br /><br />
+            <strong>终端服务</strong> 管理连接允许您在同一视图中管理多台计算机上的终端服务会话。提供重置（强制注销）、发送消息和重启服务器等多种重要管理任务。
+            <br /><br />
+            <strong>常规</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>跟踪并列出所有终端服务会话</li>
+            	<li>在仪表板中自动显示数据</li>
+            	<li>重置终端服务会话（强制注销）</li>
+            	<li>向终端服务会话发送消息</li>
+            	<li>重启服务器</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>快速搜索</li>
+            	<li>列筛选</li>
+            </ul>
+        ]]></Description>
     <SupportedProtocols>TerminalServices</SupportedProtocols>
     <ObjectTypeName>RoyalTerminalServicesConnection</ObjectTypeName>
     <Version>6.4.0.1000</Version>
@@ -37,7 +37,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>Closed Source</LicenseType>
+    <LicenseType>闭源</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>TerminalServicesPlugin</PluginFrameworks>
 </PluginInfo>

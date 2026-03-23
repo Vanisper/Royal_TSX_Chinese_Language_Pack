@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>b395595d-c20f-49b6-87a0-375d8d8b052c</ID>
-    <Name>Windows Processes</Name>
-    <ShortDescription>View and manage Windows processes.</ShortDescription>
+    <Name>Windows 进程</Name>
+    <ShortDescription>查看并管理 Windows 进程。</ShortDescription>
     <Description><![CDATA[
-			<i>View and manage Windows processes from one or more computers.</i>
-			<br /><br />
-			The <strong>Windows Processes</strong> management connection allows you to manage Windows processes from multiple computers in one convenient view. Information like process id, memory consumption (working set), process owner and more are at your fingertips.
-			<br /><br />
-			<strong>General</strong>
-			<br />
-			<ul>
-				<li>Requires <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-				<li>List all Windows processes</li>
-				<li>Display data automatically in the dashboard</li>
-				<li>Terminate (kill) processes</li>
-				<li>Configurable auto refresh</li>
-			</ul>
-			<br />
-			<strong>Advanced Features</strong>
-			<br />
-			<ul>
-				<li>Quick search</li>
-				<li>Column filter</li>
-			</ul>
-		]]></Description>
+            <i>查看并管理来自一台或多台计算机的 Windows 进程。</i>
+            <br /><br />
+            <strong>Windows 进程</strong> 管理连接允许您在一个便捷的视图中管理多台计算机上的 Windows 进程。进程 ID、内存占用（工作集）、进程所有者等信息一目了然。
+            <br /><br />
+            <strong>常规</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>列出所有 Windows 进程</li>
+            	<li>在仪表板中自动显示数据</li>
+            	<li>终止（杀死）进程</li>
+            	<li>可配置的自动刷新</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>快速搜索</li>
+            	<li>列筛选</li>
+            </ul>
+        ]]></Description>
     <SupportedProtocols>WindowsProcesses</SupportedProtocols>
     <ObjectTypeName>RoyalWindowsProcessesConnection</ObjectTypeName>
     <Version>6.4.0.1000</Version>
@@ -36,7 +36,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>Closed Source</LicenseType>
+    <LicenseType>闭源</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>WindowsProcessesPlugin</PluginFrameworks>
 </PluginInfo>

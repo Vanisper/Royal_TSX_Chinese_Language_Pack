@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>4a376bc0-9c23-11e1-a8b0-0800200c9a66</ID>
-    <Name>Web (based on WebKit)</Name>
-    <ShortDescription>Access web-based management consoles.</ShortDescription>
+    <Name>Web（基于 WebKit）</Name>
+    <ShortDescription>访问基于 Web 的管理控制台。</ShortDescription>
     <Description><![CDATA[
-			<i>Seamlessly integrate browser-based management consoles into your workflow.</i>
-			<br /><br />
-			Quickly access <strong>web pages</strong> or <strong>web based management consoles</strong>, such as Firewall or Router configuration interfaces, System Center Web Consoles, Sharepoint, etc.
-			<br /><br />
-			The convenient Auto Fill feature lets you automatically complete web forms based on values defined in the connection or assigned credentials.
-			<br /><br />
-			<strong>Auto Fill</strong>
-			<br />
-			<ul>
-				<li>Automatically fill login forms</li>
-				<li>HTML element to value mapping</li>
-				<li>Replacement token support</li>
-				<li>Credential management support</li>
-				<li>Option to retry auto fill until success</li>
-				<li>Support for configuring auto fill delay</li>
-			</ul>
-			<br />
-			<strong>Advanced Features</strong>
-			<br />
-			<ul>
-				<li>Navigation Toolbar</li>
-				<li>Built-in download manager</li>
-				<li>Basic authentication support</li>
-				<li>Customizable cookie storage mode</li>
-				<li>Customizable User Agent String</li>
-				<li>Secure Gateway support</li>
-			</ul>
-		]]></Description>
+            <i>将基于浏览器的管理控制台无缝集成到您的工作流程中。</i>
+            <br /><br />
+            快速访问<strong>网页</strong>或<strong>基于 Web 的管理控制台</strong>，例如防火墙或路由器配置界面、System Center Web 控制台、SharePoint 等。
+            <br /><br />
+            便捷的自动填充功能可根据连接中定义的值或所分配的凭据，自动完成网页表单。
+            <br /><br />
+            <strong>自动填充</strong>
+            <br />
+            <ul>
+            	<li>自动填写登录表单</li>
+            	<li>HTML 元素到值的映射</li>
+            	<li>支持替换令牌</li>
+            	<li>支持凭据管理</li>
+            	<li>可在成功前重复尝试自动填充</li>
+            	<li>支持配置自动填充延迟</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>导航工具栏</li>
+            	<li>内置下载管理器</li>
+            	<li>支持基本身份验证</li>
+            	<li>可自定义 Cookie 存储模式</li>
+            	<li>可自定义 User Agent 字符串</li>
+            	<li>支持安全网关</li>
+            </ul>
+        ]]></Description>
     <SupportedProtocols>HTTP;HTTPS</SupportedProtocols>
     <ObjectTypeName>RoyalWebConnection</ObjectTypeName>
     <Version>6.4.0.1000</Version>
@@ -43,7 +43,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>Closed Source</LicenseType>
+    <LicenseType>闭源</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>WebConnectionPlugin</PluginFrameworks>
 </PluginInfo>
