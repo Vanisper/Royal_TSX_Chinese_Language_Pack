@@ -8,6 +8,41 @@ readonly min_support_version="4.3.6"
 base_path=$(cd "$(dirname "$0")" || exit; pwd)
 cd "$base_path" || exit
 
+# 运行模式
+dry_run=0
+
+print_usage() {
+    cat <<'EOF'
+用法: ./install.sh [--dry-run]
+
+选项:
+  --dry-run    仅预览将要复制的文件，不实际写入
+  -h, --help   显示帮助
+EOF
+}
+
+while [ "$#" -gt 0 ]; do
+    case "$1" in
+        --dry-run)
+            dry_run=1
+            ;;
+        -h|--help)
+            print_usage
+            exit 0
+            ;;
+        *)
+            echo -e "\033[31m不支持的参数: $1\033[0m"
+            print_usage
+            exit 1
+            ;;
+    esac
+    shift
+done
+
+if [ "$dry_run" -eq 1 ]; then
+    echo "当前为预览模式，不会实际写入文件。"
+fi
+
 # 获取主程序安装路径
 main_app_path=""
 if [ -d "/Applications/Royal TSX.app" ]; then
@@ -109,6 +144,8 @@ find_versioned_source_dir() {
 copy_tree_contents() {
     local source_dir="$1"
     local target_dir="$2"
+    local source_file
+    local relative_path
 
     if [ ! -d "$source_dir" ]; then
         echo -e "\033[33m未找到源目录:${source_dir}\033[0m"
@@ -116,7 +153,19 @@ copy_tree_contents() {
     fi
 
     if [ ! -d "$target_dir" ]; then
-        mkdir -p "$target_dir" || return 1
+        if [ "$dry_run" -eq 1 ]; then
+            echo "[DRY RUN] mkdir -p $target_dir"
+        else
+            mkdir -p "$target_dir" || return 1
+        fi
+    fi
+
+    if [ "$dry_run" -eq 1 ]; then
+        while IFS= read -r source_file; do
+            relative_path="${source_file#$source_dir/}"
+            echo "[DRY RUN] $source_file -> $target_dir/$relative_path"
+        done < <(find "$source_dir" \( -type f -o -type l \) | sort)
+        return 0
     fi
 
     cp -R "$source_dir/." "$target_dir/"
@@ -132,6 +181,12 @@ copy_file() {
         return 1
     fi
 
+    if [ "$dry_run" -eq 1 ]; then
+        echo "[DRY RUN] mkdir -p $(dirname "$target_file")"
+        echo "[DRY RUN] $source_file -> $target_file"
+        return 0
+    fi
+
     mkdir -p "$(dirname "$target_file")" || return 1
     cp "$source_file" "$target_file"
 }
@@ -141,7 +196,11 @@ translate_main_app() {
     local target_dir="$1/Contents/Resources/zh_Hans.lproj"
 
     if copy_tree_contents "Main Application/zh_Hans.lproj" "$target_dir"; then
-        echo "主程序汉化完成!"
+        if [ "$dry_run" -eq 1 ]; then
+            echo "主程序汉化预览完成!"
+        else
+            echo "主程序汉化完成!"
+        fi
     else
         echo -e "\033[31m主程序汉化失败!\033[0m"
     fi
@@ -150,7 +209,11 @@ translate_main_app() {
 # 汉化插件
 translate_plugins() {
     local plugin_list=("$@")
-    echo "目前共有${#plugin_list[@]}个插件支持汉化，开始检查并汉化，请留意后续汉化进度。"
+    if [ "$dry_run" -eq 1 ]; then
+        echo "目前共有${#plugin_list[@]}个插件支持汉化，开始检查并预览汉化内容，请留意后续进度。"
+    else
+        echo "目前共有${#plugin_list[@]}个插件支持汉化，开始检查并汉化，请留意后续汉化进度。"
+    fi
     for plugin in "${plugin_list[@]}"; do
         # 获取 UUID 和名称
         uuid=$(echo "${plugin}" | cut -d':' -f1)
@@ -185,7 +248,11 @@ translate_plugins() {
             fi
 
             if [ "$success" -eq 1 ] && [ "$copied" -eq 1 ]; then
-                echo "${name}插件汉化完成!"
+                if [ "$dry_run" -eq 1 ]; then
+                    echo "${name}插件汉化预览完成!"
+                else
+                    echo "${name}插件汉化完成!"
+                fi
             elif [ "$success" -eq 1 ]; then
                 echo -e "\033[33m未找到${name}插件可复制的汉化文件，已跳过!\033[0m"
             else
@@ -232,7 +299,11 @@ translate_plugin_gallery() {
     fi
 
     if [ "$success" -eq 1 ] && [ "$copied" -eq 1 ]; then
-        echo "插件中心汉化完成!"
+        if [ "$dry_run" -eq 1 ]; then
+            echo "插件中心汉化预览完成!"
+        else
+            echo "插件中心汉化完成!"
+        fi
     elif [ "$success" -eq 1 ]; then
         echo -e "\033[33m未找到插件中心可复制的汉化文件，已跳过插件中心汉化。\033[0m"
     else
@@ -250,7 +321,11 @@ translate_getting_started() {
     fi
 
     if copy_file "GettingStarted/index.htm" "$target_dir/index.htm"; then
-        echo "入门简介汉化完成!"
+        if [ "$dry_run" -eq 1 ]; then
+            echo "入门简介汉化预览完成!"
+        else
+            echo "入门简介汉化完成!"
+        fi
     else
         echo -e "\033[31m入门简介汉化失败!\033[0m"
     fi
