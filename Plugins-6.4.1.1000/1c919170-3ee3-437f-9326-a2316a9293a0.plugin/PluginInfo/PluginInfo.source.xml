@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>1c919170-3ee3-437f-9326-a2316a9293a0</ID>
+    <Name>Remote Desktop (based on FreeRDP)</Name>
+    <ShortDescription>Connect to Windows computers using RDP.</ShortDescription>
+    <Description><![CDATA[
+            <i>使用远程桌面协议连接到 Windows 计算机或 Hyper-V 实例控制台。</i>
+            <br /><br />
+            Royal TSX 基于 <strong>FreeRDP</strong> 的远程桌面插件，提供业内功能最全面的集成式 <strong>远程桌面连接（RDP）</strong>。除此之外，Royal TSX 还提供独特的管理能力，可用于处理终端会话并控制 Hyper-V 实例。
+            <br /><br />
+            <strong>安全性</strong>
+            <br />
+            <ul>
+            	<li>支持网络级别身份验证（NLA）</li>
+            	<li>支持远程桌面网关</li>
+            	<li>支持安全网关</li>
+            	<li>支持 HTTP 和 SOCKS 代理</li>
+            	<li>支持用于自动登录和网关凭据的凭据管理</li>
+            	<li>支持智能卡重定向（实验性）</li>
+            </ul>
+            <br />
+            <strong>Hyper-V 管理</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>列出所有 Hyper-V 实例</li>
+            	<li>连接到任意 Hyper-V 实例的控制台</li>
+            	<li>基于 Hyper-V 实例为控制台或计算机创建新的连接</li>
+            	<li>管理 Hyper-V 实例（停止、启动、暂停、保存状态）</li>
+            </ul>
+            <br />
+            <strong>终端服务管理</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>列出所有终端服务会话</li>
+            	<li>重置终端服务会话（强制注销）</li>
+            	<li>向终端服务会话发送消息</li>
+            	<li>重启服务器</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>支持在 HiDPI/Retina 会话中自动进行 DPI 缩放</li>
+            	<li>支持在 HiDPI/Retina 会话中放大和缩小</li>
+            	<li>显示选项支持智能重连和智能缩放</li>
+            	<li>支持多显示器全屏</li>
+            	<li>支持压缩、缓存、负载均衡信息等</li>
+            	<li>性能设置</li>
+            	<li>支持驱动器、打印机、剪贴板、智能卡（实验性）、音频和麦克风重定向</li>
+            	<li>可更改键盘布局并传递 Windows 键或快捷键</li>
+            	<li>可使用 macOS 键盘快捷键执行复制、粘贴等常用操作</li>
+            	<li>支持重新映射修饰键</li>
+            	<li>启动程序配置</li>
+            </ul>
+        ]]></Description>
+    <SupportedProtocols>RDP</SupportedProtocols>
+    <ObjectTypeName>RoyalRDSConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#rdp</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>FreeRDPPlugin</PluginFrameworks>
+</PluginInfo>

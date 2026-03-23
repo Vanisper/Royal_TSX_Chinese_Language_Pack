@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>7c84a650-9896-11e1-a8b0-0800200c9a66</ID>
+    <Name>Terminal (based on iTerm2)</Name>
+    <ShortDescription>Connect to SSH, Telnet and Serial Port hosts.</ShortDescription>
+    <Description><![CDATA[
+            <i>SSH、Telnet、串口连接和自定义终端尽在指尖。</i>
+            <br /><br />
+            基于 <strong>iTerm2</strong> 的终端插件支持 <strong>SSH</strong>、<strong>Telnet</strong>、<strong>串口（RS232）</strong>，以及任何可通过 <strong>自定义终端</strong> 使用的其他基于终端的连接类型。
+            <br /><br />
+            <strong>自定义</strong>
+            <br />
+            <ul>
+            	<li>可自定义字体、字号和样式</li>
+            	<li>可配置 ANSI 调色板</li>
+            	<li>支持 iTerm2 配色方案</li>
+            </ul>
+            <br />
+            <strong>输入</strong>
+            <br />
+            <ul>
+            	<li>支持配置按键映射</li>
+            	<li>使用按键序列任务自动化键盘输入</li>
+            	<li>可自定义键盘行为</li>
+            	<li>可自定义滚动缓冲行数</li>
+            </ul>
+            <br />
+            <strong>日志管理</strong>
+            <br />
+            <ul>
+            	<li>创建并整理日志文件以满足文档记录需求</li>
+            	<li>日志仪表板提供对日志文件的便捷访问和管理</li>
+            	<li>查看、搜索和导出日志文件</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>支持将私钥文件嵌入文档</li>
+            	<li>支持 X11 转发</li>
+            	<li>编码和终端类型配置</li>
+            	<li>连接专属设置（例如 keepalive）</li>
+            	<li>隧道配置</li>
+            	<li>串口通信配置</li>
+            	<li>支持 iTerm2 Triggers</li>
+            	<li>支持 iTerm2 Shell Integration 功能</li>
+            	<li>支持安全网关</li>
+            </ul>
+        ]]></Description>
+    <SupportedProtocols>SSH;Telnet</SupportedProtocols>
+    <ObjectTypeName>RoyalSSHConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#terminal</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>GPL V2</LicenseType>
+    <LicenseURL>https://github.com/royalapplications/royaltsx-v6-oss/blob/main/Native/ConnectionPlugins/iTerm3/README.license</LicenseURL>
+    <PluginFrameworks>iTermPlugin;iTerm2Lib</PluginFrameworks>
+</PluginInfo>

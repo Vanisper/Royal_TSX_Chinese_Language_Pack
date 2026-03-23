@@ -50,6 +50,42 @@ Royal_TSX的简体中文汉化包，适用于macOS系统。汉化过程中，以
 3. 复制本目录“Plugins”下面所对应的插件汉化文件夹到对应插件资源文件夹下。
 4. 重启Royal TSX 程序即可。
 
+### 2.1、维护 PluginInfo.xml
+
+Royal TSX 6.4.1 对 `PluginInfo.xml` 的渲染有一个限制：
+
+1. `Name`、`ShortDescription`、`LicenseType` 这三个字段如果直接写中文，软件界面里会乱码。
+2. `Description` 走的是 `CDATA` + HTML 渲染链路，可以稳定显示中文。
+
+因此，本仓库对 `PluginInfo.xml` 采用了“双文件”维护方式：
+
+1. 可读源文件：`PluginInfo.source.xml`
+2. 发布文件：`PluginInfo.xml`
+
+平时请直接编辑 `PluginInfo.source.xml`，然后运行下面的命令生成最终发布文件：
+
+```bash
+python3 tools/generate_plugin_info.py build
+```
+
+如果需要从现有的 `PluginInfo.xml` 反向生成一份可读源文件，可以运行：
+
+```bash
+python3 tools/generate_plugin_info.py bootstrap
+```
+
+如果只想检查生成结果是否是最新的，可以运行：
+
+```bash
+python3 tools/generate_plugin_info.py check
+```
+
+约定如下：
+
+1. `Name`、`ShortDescription`、`LicenseType` 保持英文或安全 ASCII
+2. `Description` 在 `PluginInfo.source.xml` 中正常写中文
+3. 生成脚本会自动把 `Description` 转成 Royal TSX 当前可稳定显示的形式
+
 ### 3、插件中心汉化
 
 #### 5.X版本插件中心 

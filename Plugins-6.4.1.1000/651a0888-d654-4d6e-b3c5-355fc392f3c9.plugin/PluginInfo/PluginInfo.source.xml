@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>651a0888-d654-4d6e-b3c5-355fc392f3c9</ID>
+    <Name>Hyper-V</Name>
+    <ShortDescription>View and manage Hyper-V instances.</ShortDescription>
+    <Description><![CDATA[
+            <i>查看并管理来自一个或多个 Hyper-V 主机的 Hyper-V 实例。</i>
+            <br /><br />
+            <strong>Hyper-V</strong> 管理连接允许您在同一视图中管理多个 Hyper-V 主机上的实例。提供启动、停止、暂停和保存状态等管理任务。此外，您还可以快速为任意正在运行的 Hyper-V 实例创建临时控制台连接。
+            <br /><br />
+            <strong>常规</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>跟踪并列出来自一个或多个 Hyper-V 主机的实例</li>
+            	<li>管理 Hyper-V 实例（停止、启动、暂停、保存状态）</li>
+            	<li>在仪表板中自动显示数据</li>
+            	<li>可配置的自动刷新</li>
+            	<li>连接到任意 Hyper-V 实例的控制台</li>
+            	<li>基于 Hyper-V 实例为控制台或计算机创建新的连接</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>快速搜索</li>
+            	<li>列筛选</li>
+            </ul>
+        ]]></Description>
+    <SupportedProtocols>HyperV</SupportedProtocols>
+    <ObjectTypeName>RoyalHyperVConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#hyperv</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>HyperVPlugin</PluginFrameworks>
+</PluginInfo>

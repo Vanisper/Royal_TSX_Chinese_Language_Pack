@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>9e13c958-7515-4ddd-b914-e00f77dd609b</ID>
+    <Name>VMware</Name>
+    <ShortDescription>View and manage VMware instances.</ShortDescription>
+    <Description><![CDATA[
+            <i>查看并管理来自一个或多个 VMware（ESXi/vCenter）主机的 VMware 实例。</i>
+            <br /><br />
+            <strong>VMware</strong> 管理连接允许您在同一视图中管理多个 VMware 主机上的实例。提供开机、关机、挂起、关闭操作系统和重启等管理任务。此外，您还可以快速连接到任意正在运行的 VMware 实例控制台。
+            <br /><br />
+            <strong>常规</strong>
+            <br />
+            <ul>
+            	<li>支持 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>跟踪并列出来自一个或多个 VMware 主机的实例</li>
+            	<li>管理 VMware 实例（开机、关机、挂起、关闭、重启等）</li>
+            	<li>在仪表板中自动显示数据</li>
+            	<li>可配置的自动刷新</li>
+            	<li>连接到任意 VMware 实例的控制台</li>
+            	<li>支持向实例发起 RDP、VNC 或 SSH 临时连接</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>快速搜索</li>
+            	<li>列筛选</li>
+            	<li>支持安全网关</li>
+            </ul>
+        ]]></Description>
+    <SupportedProtocols>VMware</SupportedProtocols>
+    <ObjectTypeName>RoyalVMwareConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#vmware</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>VMwarePlugin</PluginFrameworks>
+</PluginInfo>

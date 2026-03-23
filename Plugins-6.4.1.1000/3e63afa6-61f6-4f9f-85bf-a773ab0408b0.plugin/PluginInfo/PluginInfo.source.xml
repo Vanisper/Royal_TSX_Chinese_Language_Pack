@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>3e63afa6-61f6-4f9f-85bf-a773ab0408b0</ID>
+    <Name>File Transfer</Name>
+    <ShortDescription>Browse and transfer files using FTP, SFTP and SCP.</ShortDescription>
+    <Description><![CDATA[
+            <i>使用 FTP、SFTP 和 SCP 浏览并传输文件。</i>
+            <br /><br />
+            Royal TSX 的文件传输插件支持在 <strong>FTP</strong>、<strong>SFTP</strong> 和 <strong>SCP</strong> 文件服务器上浏览和传输文件。
+            <br /><br />
+            <strong>常规</strong>
+            <br />
+            <ul>
+            	<li>支持 FTP</li>
+            	<li>支持使用隐式 SSL 的 FTP</li>
+            	<li>支持使用显式 TLS/SSL 的 FTP</li>
+            	<li>支持 SFTP</li>
+            	<li>支持 SCP</li>
+            	<li>双窗格文件浏览器</li>
+            	<li>实时编辑（自动上传本地更改的文件）</li>
+            	<li>支持 Quick Look</li>
+            	<li>支持通过 Bonjour 发现 FTP 和 SFTP 主机</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>支持被动模式</li>
+            	<li>支持指定初始路径</li>
+            	<li>支持显示隐藏文件和目录</li>
+            	<li>支持在传输时统一覆盖或跳过所有文件</li>
+            	<li>支持在文件传输后恢复时间戳</li>
+            	<li>支持查看和更改权限</li>
+            	<li>支持在文件传输中使用大缓冲区</li>
+            	<li>支持指定 SFTP 自定义命令</li>
+            	<li>证书验证</li>
+            	<li>代理支持</li>
+            	<li>支持安全网关</li>
+            </ul>
+        ]]></Description>
+    <SupportedProtocols>FileTransfer</SupportedProtocols>
+    <ObjectTypeName>RoyalFileTransferConnection</ObjectTypeName>
+    <Version>6.4.1.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#filetransfer</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>FileTransferPlugin</PluginFrameworks>
+</PluginInfo>

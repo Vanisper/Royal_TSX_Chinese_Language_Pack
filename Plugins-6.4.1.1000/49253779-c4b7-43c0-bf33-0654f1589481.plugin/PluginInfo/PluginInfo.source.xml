@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>49253779-c4b7-43c0-bf33-0654f1589481</ID>
+    <Name>Windows Services</Name>
+    <ShortDescription>View and manage Windows services.</ShortDescription>
+    <Description><![CDATA[
+            <i>查看并管理来自一台或多台计算机的 Windows 服务。</i>
+            <br /><br />
+            <strong>Windows 服务</strong> 管理连接允许您在同一视图中管理多台计算机上的 Windows 服务。提供启动、停止和重启等关键管理任务。
+            <br /><br />
+            <strong>常规</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>列出 Windows 服务</li>
+            	<li>在仪表板中自动显示数据</li>
+            	<li>启动、停止和重启 Windows 服务</li>
+            	<li>可配置的自动刷新</li>
+            	<li>可显示或隐藏详细信息面板</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>快速搜索</li>
+            	<li>列筛选</li>
+            	<li>使用自定义查询进行基于 WQL 的高级筛选</li>
+            </ul>
+        ]]></Description>
+    <SupportedProtocols>WindowsServices</SupportedProtocols>
+    <ObjectTypeName>RoyalWindowsServicesConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#winservices</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>WindowsServicesPlugin</PluginFrameworks>
+</PluginInfo>

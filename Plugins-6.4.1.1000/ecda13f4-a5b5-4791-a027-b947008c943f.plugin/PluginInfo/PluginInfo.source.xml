@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>ecda13f4-a5b5-4791-a027-b947008c943f</ID>
+    <Name>Terminal Services</Name>
+    <ShortDescription>View and manage terminal service sessions.</ShortDescription>
+    <Description><![CDATA[
+            <i>查看并管理来自一台或多台计算机的终端服务会话。</i>
+            <br /><br />
+            <strong>终端服务</strong> 管理连接允许您在同一视图中管理多台计算机上的终端服务会话。提供重置（强制注销）、发送消息和重启服务器等多种重要管理任务。
+            <br /><br />
+            <strong>常规</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>跟踪并列出所有终端服务会话</li>
+            	<li>在仪表板中自动显示数据</li>
+            	<li>重置终端服务会话（强制注销）</li>
+            	<li>向终端服务会话发送消息</li>
+            	<li>重启服务器</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>快速搜索</li>
+            	<li>列筛选</li>
+            </ul>
+        ]]></Description>
+    <SupportedProtocols>TerminalServices</SupportedProtocols>
+    <ObjectTypeName>RoyalTerminalServicesConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#terminalservices</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>TerminalServicesPlugin</PluginFrameworks>
+</PluginInfo>

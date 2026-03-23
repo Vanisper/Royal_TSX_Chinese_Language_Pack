@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>21e6e2a4-50e7-49a9-a1b9-56e2eb6f9640</ID>
+    <Name>PowerShell</Name>
+    <ShortDescription>Execute scripts or commands on Windows computers.</ShortDescription>
+    <Description><![CDATA[
+            <i>在一台或多台 Windows 计算机上执行自定义脚本或命令。</i>
+            <br /><br />
+            借助 Royal TSX 内置并支持语法高亮的脚本编辑器管理您的 <strong>PowerShell</strong> 脚本。还可以通过标准的 PowerShell 脚本参数，将替换令牌传递给脚本。
+            <br /><br />
+            <strong>常规</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>在一台或多台计算机上执行 PowerShell 脚本</li>
+            	<li>在仪表板中自动显示结果</li>
+            	<li>可配置的自动刷新</li>
+            	<li>在 Royal TSX 中使用语法高亮编辑 PowerShell 脚本</li>
+            	<li>以网格形式显示结果</li>
+            	<li>以文本形式显示结果</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>配置脚本参数（支持替换令牌）</li>
+            	<li>测试脚本执行</li>
+            	<li>为文本输出自定义字体、字号和控制台颜色</li>
+            	<li>快速搜索</li>
+            	<li>列筛选</li>
+            </ul>
+        ]]></Description>
+    <SupportedProtocols>PowerShell</SupportedProtocols>
+    <ObjectTypeName>RoyalPowerShellConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#powershell</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support/</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>PowerShellPlugin</PluginFrameworks>
+</PluginInfo>

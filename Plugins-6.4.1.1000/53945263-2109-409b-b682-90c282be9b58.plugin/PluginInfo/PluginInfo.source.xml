@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>53945263-2109-409b-b682-90c282be9b58</ID>
+    <Name>TeamViewer</Name>
+    <ShortDescription>Connect with TeamViewer.</ShortDescription>
+    <Description><![CDATA[
+            <i>通过 TeamViewer 建立连接</i>
+            <br /><br />
+            <strong>TeamViewer</strong> 插件允许您<strong>远程控制</strong>运行 TeamViewer 的计算机。同时还支持 <strong>会议</strong>、<strong>VPN</strong>、<strong>文件传输</strong> 以及查看 TeamViewer <strong>管理控制台</strong> 等其他连接类型。
+        ]]></Description>
+    <SupportedProtocols>TeamViewer</SupportedProtocols>
+    <ObjectTypeName>RoyalTeamViewerConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#teamviewer</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>TeamViewerPlugin</PluginFrameworks>
+</PluginInfo>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>6b941bae-bff5-46a3-8a40-91ca66c54c89</ID>
+    <Name>Windows Events View</Name>
+    <ShortDescription>Display and monitor Windows Event Log entries.</ShortDescription>
+    <Description><![CDATA[
+            <i>显示并监视来自一台或多台远程 Windows 计算机的 Windows 事件日志条目。</i>
+            <br /><br />
+            <strong>Windows 事件查看</strong> 提供了全新的方式来筛选和分析事件日志数据。它灵活且高度可定制，连 Windows 自带的事件查看器也难以匹敌。借助连接模板，您可以轻松分析现有连接的日志数据。
+            <br /><br />
+            <strong>常规</strong>
+            <br />
+            <ul>
+            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>列出来自一台或多台计算机的 Windows 事件</li>
+            	<li>在仪表板中自动显示数据</li>
+            	<li>可配置的自动刷新</li>
+            	<li>可以限制事件数量</li>
+            	<li>可显示或隐藏详细信息面板</li>
+            </ul>
+            <br />
+            <strong>高级功能</strong>
+            <br />
+            <ul>
+            	<li>快速搜索</li>
+            	<li>列筛选</li>
+            	<li>基本筛选（事件日志、级别、事件 ID 和时间范围）</li>
+            	<li>使用自定义查询进行基于 WQL 的高级筛选</li>
+            </ul>
+        ]]></Description>
+    <SupportedProtocols>WindowsEvents</SupportedProtocols>
+    <ObjectTypeName>RoyalWindowsEventsConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#winevents</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>WindowsEventsPlugin</PluginFrameworks>
+</PluginInfo>
