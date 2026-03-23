@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>49253779-c4b7-43c0-bf33-0654f1589481</ID>
-    <Name>Windows 服务</Name>
-    <ShortDescription>查看并管理 Windows 服务。</ShortDescription>
+    <Name>Windows Services</Name>
+    <ShortDescription>View and manage Windows services.</ShortDescription>
     <Description><![CDATA[
-            <i>查看并管理来自一台或多台计算机的 Windows 服务。</i>
+            <i>&#x67E5;&#x770B;&#x5E76;&#x7BA1;&#x7406;&#x6765;&#x81EA;&#x4E00;&#x53F0;&#x6216;&#x591A;&#x53F0;&#x8BA1;&#x7B97;&#x673A;&#x7684; Windows &#x670D;&#x52A1;&#x3002;</i>
             <br /><br />
-            <strong>Windows 服务</strong> 管理连接允许您在同一视图中管理多台计算机上的 Windows 服务。提供启动、停止和重启等关键管理任务。
+            <strong>Windows &#x670D;&#x52A1;</strong> &#x7BA1;&#x7406;&#x8FDE;&#x63A5;&#x5141;&#x8BB8;&#x60A8;&#x5728;&#x540C;&#x4E00;&#x89C6;&#x56FE;&#x4E2D;&#x7BA1;&#x7406;&#x591A;&#x53F0;&#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#x7684; Windows &#x670D;&#x52A1;&#x3002;&#x63D0;&#x4F9B;&#x542F;&#x52A8;&#x3001;&#x505C;&#x6B62;&#x548C;&#x91CD;&#x542F;&#x7B49;&#x5173;&#x952E;&#x7BA1;&#x7406;&#x4EFB;&#x52A1;&#x3002;
             <br /><br />
-            <strong>常规</strong>
+            <strong>&#x5E38;&#x89C4;</strong>
             <br />
             <ul>
-            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-            	<li>列出 Windows 服务</li>
-            	<li>在仪表板中自动显示数据</li>
-            	<li>启动、停止和重启 Windows 服务</li>
-            	<li>可配置的自动刷新</li>
-            	<li>可显示或隐藏详细信息面板</li>
+            	<li>&#x9700;&#x8981; <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>&#x5217;&#x51FA; Windows &#x670D;&#x52A1;</li>
+            	<li>&#x5728;&#x4EEA;&#x8868;&#x677F;&#x4E2D;&#x81EA;&#x52A8;&#x663E;&#x793A;&#x6570;&#x636E;</li>
+            	<li>&#x542F;&#x52A8;&#x3001;&#x505C;&#x6B62;&#x548C;&#x91CD;&#x542F; Windows &#x670D;&#x52A1;</li>
+            	<li>&#x53EF;&#x914D;&#x7F6E;&#x7684;&#x81EA;&#x52A8;&#x5237;&#x65B0;</li>
+            	<li>&#x53EF;&#x663E;&#x793A;&#x6216;&#x9690;&#x85CF;&#x8BE6;&#x7EC6;&#x4FE1;&#x606F;&#x9762;&#x677F;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>快速搜索</li>
-            	<li>列筛选</li>
-            	<li>使用自定义查询进行基于 WQL 的高级筛选</li>
+            	<li>&#x5FEB;&#x901F;&#x641C;&#x7D22;</li>
+            	<li>&#x5217;&#x7B5B;&#x9009;</li>
+            	<li>&#x4F7F;&#x7528;&#x81EA;&#x5B9A;&#x4E49;&#x67E5;&#x8BE2;&#x8FDB;&#x884C;&#x57FA;&#x4E8E; WQL &#x7684;&#x9AD8;&#x7EA7;&#x7B5B;&#x9009;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>WindowsServices</SupportedProtocols>
@@ -38,7 +38,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>闭源</LicenseType>
+    <LicenseType>Closed Source</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>WindowsServicesPlugin</PluginFrameworks>
 </PluginInfo>

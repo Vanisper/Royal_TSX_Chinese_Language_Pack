@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>b395595d-c20f-49b6-87a0-375d8d8b052c</ID>
-    <Name>Windows 进程</Name>
-    <ShortDescription>查看并管理 Windows 进程。</ShortDescription>
+    <Name>Windows Processes</Name>
+    <ShortDescription>View and manage Windows processes.</ShortDescription>
     <Description><![CDATA[
-            <i>查看并管理来自一台或多台计算机的 Windows 进程。</i>
+            <i>&#x67E5;&#x770B;&#x5E76;&#x7BA1;&#x7406;&#x6765;&#x81EA;&#x4E00;&#x53F0;&#x6216;&#x591A;&#x53F0;&#x8BA1;&#x7B97;&#x673A;&#x7684; Windows &#x8FDB;&#x7A0B;&#x3002;</i>
             <br /><br />
-            <strong>Windows 进程</strong> 管理连接允许您在一个便捷的视图中管理多台计算机上的 Windows 进程。进程 ID、内存占用（工作集）、进程所有者等信息一目了然。
+            <strong>Windows &#x8FDB;&#x7A0B;</strong> &#x7BA1;&#x7406;&#x8FDE;&#x63A5;&#x5141;&#x8BB8;&#x60A8;&#x5728;&#x4E00;&#x4E2A;&#x4FBF;&#x6377;&#x7684;&#x89C6;&#x56FE;&#x4E2D;&#x7BA1;&#x7406;&#x591A;&#x53F0;&#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#x7684; Windows &#x8FDB;&#x7A0B;&#x3002;&#x8FDB;&#x7A0B; ID&#x3001;&#x5185;&#x5B58;&#x5360;&#x7528;&#xFF08;&#x5DE5;&#x4F5C;&#x96C6;&#xFF09;&#x3001;&#x8FDB;&#x7A0B;&#x6240;&#x6709;&#x8005;&#x7B49;&#x4FE1;&#x606F;&#x4E00;&#x76EE;&#x4E86;&#x7136;&#x3002;
             <br /><br />
-            <strong>常规</strong>
+            <strong>&#x5E38;&#x89C4;</strong>
             <br />
             <ul>
-            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-            	<li>列出所有 Windows 进程</li>
-            	<li>在仪表板中自动显示数据</li>
-            	<li>终止（杀死）进程</li>
-            	<li>可配置的自动刷新</li>
+            	<li>&#x9700;&#x8981; <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>&#x5217;&#x51FA;&#x6240;&#x6709; Windows &#x8FDB;&#x7A0B;</li>
+            	<li>&#x5728;&#x4EEA;&#x8868;&#x677F;&#x4E2D;&#x81EA;&#x52A8;&#x663E;&#x793A;&#x6570;&#x636E;</li>
+            	<li>&#x7EC8;&#x6B62;&#xFF08;&#x6740;&#x6B7B;&#xFF09;&#x8FDB;&#x7A0B;</li>
+            	<li>&#x53EF;&#x914D;&#x7F6E;&#x7684;&#x81EA;&#x52A8;&#x5237;&#x65B0;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>快速搜索</li>
-            	<li>列筛选</li>
+            	<li>&#x5FEB;&#x901F;&#x641C;&#x7D22;</li>
+            	<li>&#x5217;&#x7B5B;&#x9009;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>WindowsProcesses</SupportedProtocols>
@@ -36,7 +36,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>闭源</LicenseType>
+    <LicenseType>Closed Source</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>WindowsProcessesPlugin</PluginFrameworks>
 </PluginInfo>

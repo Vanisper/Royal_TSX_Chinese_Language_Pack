@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>3e63afa6-61f6-4f9f-85bf-a773ab0408b0</ID>
-    <Name>文件传输</Name>
-    <ShortDescription>使用 FTP、SFTP 和 SCP 浏览并传输文件。</ShortDescription>
+    <Name>File Transfer</Name>
+    <ShortDescription>Browse and transfer files using FTP, SFTP and SCP.</ShortDescription>
     <Description><![CDATA[
-            <i>使用 FTP、SFTP 和 SCP 浏览并传输文件。</i>
+            <i>&#x4F7F;&#x7528; FTP&#x3001;SFTP &#x548C; SCP &#x6D4F;&#x89C8;&#x5E76;&#x4F20;&#x8F93;&#x6587;&#x4EF6;&#x3002;</i>
             <br /><br />
-            Royal TSX 的文件传输插件支持在 <strong>FTP</strong>、<strong>SFTP</strong> 和 <strong>SCP</strong> 文件服务器上浏览和传输文件。
+            Royal TSX &#x7684;&#x6587;&#x4EF6;&#x4F20;&#x8F93;&#x63D2;&#x4EF6;&#x652F;&#x6301;&#x5728; <strong>FTP</strong>&#x3001;<strong>SFTP</strong> &#x548C; <strong>SCP</strong> &#x6587;&#x4EF6;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x6D4F;&#x89C8;&#x548C;&#x4F20;&#x8F93;&#x6587;&#x4EF6;&#x3002;
             <br /><br />
-            <strong>常规</strong>
+            <strong>&#x5E38;&#x89C4;</strong>
             <br />
             <ul>
-            	<li>支持 FTP</li>
-            	<li>支持使用隐式 SSL 的 FTP</li>
-            	<li>支持使用显式 TLS/SSL 的 FTP</li>
-            	<li>支持 SFTP</li>
-            	<li>支持 SCP</li>
-            	<li>双窗格文件浏览器</li>
-            	<li>实时编辑（自动上传本地更改的文件）</li>
-            	<li>支持 Quick Look</li>
-            	<li>支持通过 Bonjour 发现 FTP 和 SFTP 主机</li>
+            	<li>&#x652F;&#x6301; FTP</li>
+            	<li>&#x652F;&#x6301;&#x4F7F;&#x7528;&#x9690;&#x5F0F; SSL &#x7684; FTP</li>
+            	<li>&#x652F;&#x6301;&#x4F7F;&#x7528;&#x663E;&#x5F0F; TLS/SSL &#x7684; FTP</li>
+            	<li>&#x652F;&#x6301; SFTP</li>
+            	<li>&#x652F;&#x6301; SCP</li>
+            	<li>&#x53CC;&#x7A97;&#x683C;&#x6587;&#x4EF6;&#x6D4F;&#x89C8;&#x5668;</li>
+            	<li>&#x5B9E;&#x65F6;&#x7F16;&#x8F91;&#xFF08;&#x81EA;&#x52A8;&#x4E0A;&#x4F20;&#x672C;&#x5730;&#x66F4;&#x6539;&#x7684;&#x6587;&#x4EF6;&#xFF09;</li>
+            	<li>&#x652F;&#x6301; Quick Look</li>
+            	<li>&#x652F;&#x6301;&#x901A;&#x8FC7; Bonjour &#x53D1;&#x73B0; FTP &#x548C; SFTP &#x4E3B;&#x673A;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>支持被动模式</li>
-            	<li>支持指定初始路径</li>
-            	<li>支持显示隐藏文件和目录</li>
-            	<li>支持在传输时统一覆盖或跳过所有文件</li>
-            	<li>支持在文件传输后恢复时间戳</li>
-            	<li>支持查看和更改权限</li>
-            	<li>支持在文件传输中使用大缓冲区</li>
-            	<li>支持指定 SFTP 自定义命令</li>
-            	<li>证书验证</li>
-            	<li>代理支持</li>
-            	<li>支持安全网关</li>
+            	<li>&#x652F;&#x6301;&#x88AB;&#x52A8;&#x6A21;&#x5F0F;</li>
+            	<li>&#x652F;&#x6301;&#x6307;&#x5B9A;&#x521D;&#x59CB;&#x8DEF;&#x5F84;</li>
+            	<li>&#x652F;&#x6301;&#x663E;&#x793A;&#x9690;&#x85CF;&#x6587;&#x4EF6;&#x548C;&#x76EE;&#x5F55;</li>
+            	<li>&#x652F;&#x6301;&#x5728;&#x4F20;&#x8F93;&#x65F6;&#x7EDF;&#x4E00;&#x8986;&#x76D6;&#x6216;&#x8DF3;&#x8FC7;&#x6240;&#x6709;&#x6587;&#x4EF6;</li>
+            	<li>&#x652F;&#x6301;&#x5728;&#x6587;&#x4EF6;&#x4F20;&#x8F93;&#x540E;&#x6062;&#x590D;&#x65F6;&#x95F4;&#x6233;</li>
+            	<li>&#x652F;&#x6301;&#x67E5;&#x770B;&#x548C;&#x66F4;&#x6539;&#x6743;&#x9650;</li>
+            	<li>&#x652F;&#x6301;&#x5728;&#x6587;&#x4EF6;&#x4F20;&#x8F93;&#x4E2D;&#x4F7F;&#x7528;&#x5927;&#x7F13;&#x51B2;&#x533A;</li>
+            	<li>&#x652F;&#x6301;&#x6307;&#x5B9A; SFTP &#x81EA;&#x5B9A;&#x4E49;&#x547D;&#x4EE4;</li>
+            	<li>&#x8BC1;&#x4E66;&#x9A8C;&#x8BC1;</li>
+            	<li>&#x4EE3;&#x7406;&#x652F;&#x6301;</li>
+            	<li>&#x652F;&#x6301;&#x5B89;&#x5168;&#x7F51;&#x5173;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>FileTransfer</SupportedProtocols>
@@ -49,7 +49,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>闭源</LicenseType>
+    <LicenseType>Closed source</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>FileTransferPlugin</PluginFrameworks>
 </PluginInfo>

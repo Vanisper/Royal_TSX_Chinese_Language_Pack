@@ -2,29 +2,29 @@
 <PluginInfo>
     <ID>651a0888-d654-4d6e-b3c5-355fc392f3c9</ID>
     <Name>Hyper-V</Name>
-    <ShortDescription>查看并管理 Hyper-V 实例。</ShortDescription>
+    <ShortDescription>View and manage Hyper-V instances.</ShortDescription>
     <Description><![CDATA[
-            <i>查看并管理来自一个或多个 Hyper-V 主机的 Hyper-V 实例。</i>
+            <i>&#x67E5;&#x770B;&#x5E76;&#x7BA1;&#x7406;&#x6765;&#x81EA;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A; Hyper-V &#x4E3B;&#x673A;&#x7684; Hyper-V &#x5B9E;&#x4F8B;&#x3002;</i>
             <br /><br />
-            <strong>Hyper-V</strong> 管理连接允许您在同一视图中管理多个 Hyper-V 主机上的实例。提供启动、停止、暂停和保存状态等管理任务。此外，您还可以快速为任意正在运行的 Hyper-V 实例创建临时控制台连接。
+            <strong>Hyper-V</strong> &#x7BA1;&#x7406;&#x8FDE;&#x63A5;&#x5141;&#x8BB8;&#x60A8;&#x5728;&#x540C;&#x4E00;&#x89C6;&#x56FE;&#x4E2D;&#x7BA1;&#x7406;&#x591A;&#x4E2A; Hyper-V &#x4E3B;&#x673A;&#x4E0A;&#x7684;&#x5B9E;&#x4F8B;&#x3002;&#x63D0;&#x4F9B;&#x542F;&#x52A8;&#x3001;&#x505C;&#x6B62;&#x3001;&#x6682;&#x505C;&#x548C;&#x4FDD;&#x5B58;&#x72B6;&#x6001;&#x7B49;&#x7BA1;&#x7406;&#x4EFB;&#x52A1;&#x3002;&#x6B64;&#x5916;&#xFF0C;&#x60A8;&#x8FD8;&#x53EF;&#x4EE5;&#x5FEB;&#x901F;&#x4E3A;&#x4EFB;&#x610F;&#x6B63;&#x5728;&#x8FD0;&#x884C;&#x7684; Hyper-V &#x5B9E;&#x4F8B;&#x521B;&#x5EFA;&#x4E34;&#x65F6;&#x63A7;&#x5236;&#x53F0;&#x8FDE;&#x63A5;&#x3002;
             <br /><br />
-            <strong>常规</strong>
+            <strong>&#x5E38;&#x89C4;</strong>
             <br />
             <ul>
-            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-            	<li>跟踪并列出来自一个或多个 Hyper-V 主机的实例</li>
-            	<li>管理 Hyper-V 实例（停止、启动、暂停、保存状态）</li>
-            	<li>在仪表板中自动显示数据</li>
-            	<li>可配置的自动刷新</li>
-            	<li>连接到任意 Hyper-V 实例的控制台</li>
-            	<li>基于 Hyper-V 实例为控制台或计算机创建新的连接</li>
+            	<li>&#x9700;&#x8981; <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>&#x8DDF;&#x8E2A;&#x5E76;&#x5217;&#x51FA;&#x6765;&#x81EA;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A; Hyper-V &#x4E3B;&#x673A;&#x7684;&#x5B9E;&#x4F8B;</li>
+            	<li>&#x7BA1;&#x7406; Hyper-V &#x5B9E;&#x4F8B;&#xFF08;&#x505C;&#x6B62;&#x3001;&#x542F;&#x52A8;&#x3001;&#x6682;&#x505C;&#x3001;&#x4FDD;&#x5B58;&#x72B6;&#x6001;&#xFF09;</li>
+            	<li>&#x5728;&#x4EEA;&#x8868;&#x677F;&#x4E2D;&#x81EA;&#x52A8;&#x663E;&#x793A;&#x6570;&#x636E;</li>
+            	<li>&#x53EF;&#x914D;&#x7F6E;&#x7684;&#x81EA;&#x52A8;&#x5237;&#x65B0;</li>
+            	<li>&#x8FDE;&#x63A5;&#x5230;&#x4EFB;&#x610F; Hyper-V &#x5B9E;&#x4F8B;&#x7684;&#x63A7;&#x5236;&#x53F0;</li>
+            	<li>&#x57FA;&#x4E8E; Hyper-V &#x5B9E;&#x4F8B;&#x4E3A;&#x63A7;&#x5236;&#x53F0;&#x6216;&#x8BA1;&#x7B97;&#x673A;&#x521B;&#x5EFA;&#x65B0;&#x7684;&#x8FDE;&#x63A5;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>快速搜索</li>
-            	<li>列筛选</li>
+            	<li>&#x5FEB;&#x901F;&#x641C;&#x7D22;</li>
+            	<li>&#x5217;&#x7B5B;&#x9009;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>HyperV</SupportedProtocols>
@@ -38,7 +38,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>闭源</LicenseType>
+    <LicenseType>Closed Source</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>HyperVPlugin</PluginFrameworks>
 </PluginInfo>

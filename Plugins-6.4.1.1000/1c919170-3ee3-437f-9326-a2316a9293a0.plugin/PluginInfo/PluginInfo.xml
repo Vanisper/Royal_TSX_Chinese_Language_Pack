@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>1c919170-3ee3-437f-9326-a2316a9293a0</ID>
-    <Name>远程桌面（基于 FreeRDP）</Name>
-    <ShortDescription>使用 RDP 连接到 Windows 计算机。</ShortDescription>
+    <Name>Remote Desktop (based on FreeRDP)</Name>
+    <ShortDescription>Connect to Windows computers using RDP.</ShortDescription>
     <Description><![CDATA[
-            <i>使用远程桌面协议连接到 Windows 计算机或 Hyper-V 实例控制台。</i>
+            <i>&#x4F7F;&#x7528;&#x8FDC;&#x7A0B;&#x684C;&#x9762;&#x534F;&#x8BAE;&#x8FDE;&#x63A5;&#x5230; Windows &#x8BA1;&#x7B97;&#x673A;&#x6216; Hyper-V &#x5B9E;&#x4F8B;&#x63A7;&#x5236;&#x53F0;&#x3002;</i>
             <br /><br />
-            Royal TSX 基于 <strong>FreeRDP</strong> 的远程桌面插件，提供业内功能最全面的集成式 <strong>远程桌面连接（RDP）</strong>。除此之外，Royal TSX 还提供独特的管理能力，可用于处理终端会话并控制 Hyper-V 实例。
+            Royal TSX &#x57FA;&#x4E8E; <strong>FreeRDP</strong> &#x7684;&#x8FDC;&#x7A0B;&#x684C;&#x9762;&#x63D2;&#x4EF6;&#xFF0C;&#x63D0;&#x4F9B;&#x4E1A;&#x5185;&#x529F;&#x80FD;&#x6700;&#x5168;&#x9762;&#x7684;&#x96C6;&#x6210;&#x5F0F; <strong>&#x8FDC;&#x7A0B;&#x684C;&#x9762;&#x8FDE;&#x63A5;&#xFF08;RDP&#xFF09;</strong>&#x3002;&#x9664;&#x6B64;&#x4E4B;&#x5916;&#xFF0C;Royal TSX &#x8FD8;&#x63D0;&#x4F9B;&#x72EC;&#x7279;&#x7684;&#x7BA1;&#x7406;&#x80FD;&#x529B;&#xFF0C;&#x53EF;&#x7528;&#x4E8E;&#x5904;&#x7406;&#x7EC8;&#x7AEF;&#x4F1A;&#x8BDD;&#x5E76;&#x63A7;&#x5236; Hyper-V &#x5B9E;&#x4F8B;&#x3002;
             <br /><br />
-            <strong>安全性</strong>
+            <strong>&#x5B89;&#x5168;&#x6027;</strong>
             <br />
             <ul>
-            	<li>支持网络级别身份验证（NLA）</li>
-            	<li>支持远程桌面网关</li>
-            	<li>支持安全网关</li>
-            	<li>支持 HTTP 和 SOCKS 代理</li>
-            	<li>支持用于自动登录和网关凭据的凭据管理</li>
-            	<li>支持智能卡重定向（实验性）</li>
+            	<li>&#x652F;&#x6301;&#x7F51;&#x7EDC;&#x7EA7;&#x522B;&#x8EAB;&#x4EFD;&#x9A8C;&#x8BC1;&#xFF08;NLA&#xFF09;</li>
+            	<li>&#x652F;&#x6301;&#x8FDC;&#x7A0B;&#x684C;&#x9762;&#x7F51;&#x5173;</li>
+            	<li>&#x652F;&#x6301;&#x5B89;&#x5168;&#x7F51;&#x5173;</li>
+            	<li>&#x652F;&#x6301; HTTP &#x548C; SOCKS &#x4EE3;&#x7406;</li>
+            	<li>&#x652F;&#x6301;&#x7528;&#x4E8E;&#x81EA;&#x52A8;&#x767B;&#x5F55;&#x548C;&#x7F51;&#x5173;&#x51ED;&#x636E;&#x7684;&#x51ED;&#x636E;&#x7BA1;&#x7406;</li>
+            	<li>&#x652F;&#x6301;&#x667A;&#x80FD;&#x5361;&#x91CD;&#x5B9A;&#x5411;&#xFF08;&#x5B9E;&#x9A8C;&#x6027;&#xFF09;</li>
             </ul>
             <br />
-            <strong>Hyper-V 管理</strong>
+            <strong>Hyper-V &#x7BA1;&#x7406;</strong>
             <br />
             <ul>
-            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-            	<li>列出所有 Hyper-V 实例</li>
-            	<li>连接到任意 Hyper-V 实例的控制台</li>
-            	<li>基于 Hyper-V 实例为控制台或计算机创建新的连接</li>
-            	<li>管理 Hyper-V 实例（停止、启动、暂停、保存状态）</li>
+            	<li>&#x9700;&#x8981; <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>&#x5217;&#x51FA;&#x6240;&#x6709; Hyper-V &#x5B9E;&#x4F8B;</li>
+            	<li>&#x8FDE;&#x63A5;&#x5230;&#x4EFB;&#x610F; Hyper-V &#x5B9E;&#x4F8B;&#x7684;&#x63A7;&#x5236;&#x53F0;</li>
+            	<li>&#x57FA;&#x4E8E; Hyper-V &#x5B9E;&#x4F8B;&#x4E3A;&#x63A7;&#x5236;&#x53F0;&#x6216;&#x8BA1;&#x7B97;&#x673A;&#x521B;&#x5EFA;&#x65B0;&#x7684;&#x8FDE;&#x63A5;</li>
+            	<li>&#x7BA1;&#x7406; Hyper-V &#x5B9E;&#x4F8B;&#xFF08;&#x505C;&#x6B62;&#x3001;&#x542F;&#x52A8;&#x3001;&#x6682;&#x505C;&#x3001;&#x4FDD;&#x5B58;&#x72B6;&#x6001;&#xFF09;</li>
             </ul>
             <br />
-            <strong>终端服务管理</strong>
+            <strong>&#x7EC8;&#x7AEF;&#x670D;&#x52A1;&#x7BA1;&#x7406;</strong>
             <br />
             <ul>
-            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-            	<li>列出所有终端服务会话</li>
-            	<li>重置终端服务会话（强制注销）</li>
-            	<li>向终端服务会话发送消息</li>
-            	<li>重启服务器</li>
+            	<li>&#x9700;&#x8981; <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>&#x5217;&#x51FA;&#x6240;&#x6709;&#x7EC8;&#x7AEF;&#x670D;&#x52A1;&#x4F1A;&#x8BDD;</li>
+            	<li>&#x91CD;&#x7F6E;&#x7EC8;&#x7AEF;&#x670D;&#x52A1;&#x4F1A;&#x8BDD;&#xFF08;&#x5F3A;&#x5236;&#x6CE8;&#x9500;&#xFF09;</li>
+            	<li>&#x5411;&#x7EC8;&#x7AEF;&#x670D;&#x52A1;&#x4F1A;&#x8BDD;&#x53D1;&#x9001;&#x6D88;&#x606F;</li>
+            	<li>&#x91CD;&#x542F;&#x670D;&#x52A1;&#x5668;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>支持在 HiDPI/Retina 会话中自动进行 DPI 缩放</li>
-            	<li>支持在 HiDPI/Retina 会话中放大和缩小</li>
-            	<li>显示选项支持智能重连和智能缩放</li>
-            	<li>支持多显示器全屏</li>
-            	<li>支持压缩、缓存、负载均衡信息等</li>
-            	<li>性能设置</li>
-            	<li>支持驱动器、打印机、剪贴板、智能卡（实验性）、音频和麦克风重定向</li>
-            	<li>可更改键盘布局并传递 Windows 键或快捷键</li>
-            	<li>可使用 macOS 键盘快捷键执行复制、粘贴等常用操作</li>
-            	<li>支持重新映射修饰键</li>
-            	<li>启动程序配置</li>
+            	<li>&#x652F;&#x6301;&#x5728; HiDPI/Retina &#x4F1A;&#x8BDD;&#x4E2D;&#x81EA;&#x52A8;&#x8FDB;&#x884C; DPI &#x7F29;&#x653E;</li>
+            	<li>&#x652F;&#x6301;&#x5728; HiDPI/Retina &#x4F1A;&#x8BDD;&#x4E2D;&#x653E;&#x5927;&#x548C;&#x7F29;&#x5C0F;</li>
+            	<li>&#x663E;&#x793A;&#x9009;&#x9879;&#x652F;&#x6301;&#x667A;&#x80FD;&#x91CD;&#x8FDE;&#x548C;&#x667A;&#x80FD;&#x7F29;&#x653E;</li>
+            	<li>&#x652F;&#x6301;&#x591A;&#x663E;&#x793A;&#x5668;&#x5168;&#x5C4F;</li>
+            	<li>&#x652F;&#x6301;&#x538B;&#x7F29;&#x3001;&#x7F13;&#x5B58;&#x3001;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#x4FE1;&#x606F;&#x7B49;</li>
+            	<li>&#x6027;&#x80FD;&#x8BBE;&#x7F6E;</li>
+            	<li>&#x652F;&#x6301;&#x9A71;&#x52A8;&#x5668;&#x3001;&#x6253;&#x5370;&#x673A;&#x3001;&#x526A;&#x8D34;&#x677F;&#x3001;&#x667A;&#x80FD;&#x5361;&#xFF08;&#x5B9E;&#x9A8C;&#x6027;&#xFF09;&#x3001;&#x97F3;&#x9891;&#x548C;&#x9EA6;&#x514B;&#x98CE;&#x91CD;&#x5B9A;&#x5411;</li>
+            	<li>&#x53EF;&#x66F4;&#x6539;&#x952E;&#x76D8;&#x5E03;&#x5C40;&#x5E76;&#x4F20;&#x9012; Windows &#x952E;&#x6216;&#x5FEB;&#x6377;&#x952E;</li>
+            	<li>&#x53EF;&#x4F7F;&#x7528; macOS &#x952E;&#x76D8;&#x5FEB;&#x6377;&#x952E;&#x6267;&#x884C;&#x590D;&#x5236;&#x3001;&#x7C98;&#x8D34;&#x7B49;&#x5E38;&#x7528;&#x64CD;&#x4F5C;</li>
+            	<li>&#x652F;&#x6301;&#x91CD;&#x65B0;&#x6620;&#x5C04;&#x4FEE;&#x9970;&#x952E;</li>
+            	<li>&#x542F;&#x52A8;&#x7A0B;&#x5E8F;&#x914D;&#x7F6E;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>RDP</SupportedProtocols>
@@ -66,7 +66,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>闭源</LicenseType>
+    <LicenseType>Closed source</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>FreeRDPPlugin</PluginFrameworks>
 </PluginInfo>

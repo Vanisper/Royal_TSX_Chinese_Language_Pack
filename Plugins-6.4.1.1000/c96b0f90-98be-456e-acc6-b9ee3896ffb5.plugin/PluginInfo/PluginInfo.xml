@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>c96b0f90-98be-456e-acc6-b9ee3896ffb5</ID>
-    <Name>VNC（基于 Apple 屏幕共享）</Name>
-    <ShortDescription>使用 VNC 连接到 macOS、Windows 和 Linux。</ShortDescription>
+    <Name>VNC (based on Apple Screen Sharing)</Name>
+    <ShortDescription>Connect to macOS, Windows and Linux using VNC.</ShortDescription>
     <Description><![CDATA[
-            <i>使用 Apple 远程桌面/屏幕共享或 VNC 连接到 macOS、Windows 和 Linux 计算机。</i>
+            <i>&#x4F7F;&#x7528; Apple &#x8FDC;&#x7A0B;&#x684C;&#x9762;/&#x5C4F;&#x5E55;&#x5171;&#x4EAB;&#x6216; VNC &#x8FDE;&#x63A5;&#x5230; macOS&#x3001;Windows &#x548C; Linux &#x8BA1;&#x7B97;&#x673A;&#x3002;</i>
             <br /><br />
-            基于 <strong>Apple 屏幕共享</strong> 的 VNC 插件使您能够连接运行 <strong>Apple 远程桌面/屏幕共享</strong> 或 <strong>VNC</strong> 的远程主机。由于它以 Apple 屏幕共享为底层核心，因此在连接远程 Mac 方面可获得一流的支持。
+            &#x57FA;&#x4E8E; <strong>Apple &#x5C4F;&#x5E55;&#x5171;&#x4EAB;</strong> &#x7684; VNC &#x63D2;&#x4EF6;&#x4F7F;&#x60A8;&#x80FD;&#x591F;&#x8FDE;&#x63A5;&#x8FD0;&#x884C; <strong>Apple &#x8FDC;&#x7A0B;&#x684C;&#x9762;/&#x5C4F;&#x5E55;&#x5171;&#x4EAB;</strong> &#x6216; <strong>VNC</strong> &#x7684;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x3002;&#x7531;&#x4E8E;&#x5B83;&#x4EE5; Apple &#x5C4F;&#x5E55;&#x5171;&#x4EAB;&#x4E3A;&#x5E95;&#x5C42;&#x6838;&#x5FC3;&#xFF0C;&#x56E0;&#x6B64;&#x5728;&#x8FDE;&#x63A5;&#x8FDC;&#x7A0B; Mac &#x65B9;&#x9762;&#x53EF;&#x83B7;&#x5F97;&#x4E00;&#x6D41;&#x7684;&#x652F;&#x6301;&#x3002;
             <br /><br />
-            <strong>安全性</strong>
+            <strong>&#x5B89;&#x5168;&#x6027;</strong>
             <br />
             <ul>
-            	<li>支持 macOS 身份验证</li>
-            	<li>支持请求访问远程 Mac 的权限</li>
-            	<li>支持锁定远程 Mac 屏幕</li>
-            	<li>支持 Apple 屏幕共享加密</li>
-            	<li>支持 VNC 身份验证</li>
+            	<li>&#x652F;&#x6301; macOS &#x8EAB;&#x4EFD;&#x9A8C;&#x8BC1;</li>
+            	<li>&#x652F;&#x6301;&#x8BF7;&#x6C42;&#x8BBF;&#x95EE;&#x8FDC;&#x7A0B; Mac &#x7684;&#x6743;&#x9650;</li>
+            	<li>&#x652F;&#x6301;&#x9501;&#x5B9A;&#x8FDC;&#x7A0B; Mac &#x5C4F;&#x5E55;</li>
+            	<li>&#x652F;&#x6301; Apple &#x5C4F;&#x5E55;&#x5171;&#x4EAB;&#x52A0;&#x5BC6;</li>
+            	<li>&#x652F;&#x6301; VNC &#x8EAB;&#x4EFD;&#x9A8C;&#x8BC1;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>支持剪贴板共享</li>
-            	<li>支持拖放文件传输</li>
-            	<li>支持多显示器</li>
-            	<li>支持屏幕缩放</li>
-            	<li>支持自适应和完整质量设置</li>
-            	<li>可自定义键盘行为</li>
-            	<li>支持安全网关</li>
+            	<li>&#x652F;&#x6301;&#x526A;&#x8D34;&#x677F;&#x5171;&#x4EAB;</li>
+            	<li>&#x652F;&#x6301;&#x62D6;&#x653E;&#x6587;&#x4EF6;&#x4F20;&#x8F93;</li>
+            	<li>&#x652F;&#x6301;&#x591A;&#x663E;&#x793A;&#x5668;</li>
+            	<li>&#x652F;&#x6301;&#x5C4F;&#x5E55;&#x7F29;&#x653E;</li>
+            	<li>&#x652F;&#x6301;&#x81EA;&#x9002;&#x5E94;&#x548C;&#x5B8C;&#x6574;&#x8D28;&#x91CF;&#x8BBE;&#x7F6E;</li>
+            	<li>&#x53EF;&#x81EA;&#x5B9A;&#x4E49;&#x952E;&#x76D8;&#x884C;&#x4E3A;</li>
+            	<li>&#x652F;&#x6301;&#x5B89;&#x5168;&#x7F51;&#x5173;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>VNC</SupportedProtocols>
@@ -41,7 +41,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>闭源</LicenseType>
+    <LicenseType>Closed Source</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>ScreenSharingKit;ScreenSharingPlugin</PluginFrameworks>
 </PluginInfo>

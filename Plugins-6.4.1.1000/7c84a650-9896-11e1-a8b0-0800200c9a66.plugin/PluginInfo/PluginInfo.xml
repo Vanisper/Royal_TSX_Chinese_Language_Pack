@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>7c84a650-9896-11e1-a8b0-0800200c9a66</ID>
-    <Name>终端（基于 iTerm2）</Name>
-    <ShortDescription>SSH、Telnet、串口连接和自定义终端尽在指尖。</ShortDescription>
+    <Name>Terminal (based on iTerm2)</Name>
+    <ShortDescription>Connect to SSH, Telnet and Serial Port hosts.</ShortDescription>
     <Description><![CDATA[
-            <i>SSH、Telnet、串口连接和自定义终端尽在指尖。</i>
+            <i>SSH&#x3001;Telnet&#x3001;&#x4E32;&#x53E3;&#x8FDE;&#x63A5;&#x548C;&#x81EA;&#x5B9A;&#x4E49;&#x7EC8;&#x7AEF;&#x5C3D;&#x5728;&#x6307;&#x5C16;&#x3002;</i>
             <br /><br />
-            基于 <strong>iTerm2</strong> 的终端插件支持 <strong>SSH</strong>、<strong>Telnet</strong>、<strong>串口（RS232）</strong>，以及任何可通过 <strong>自定义终端</strong> 使用的其他基于终端的连接类型。
+            &#x57FA;&#x4E8E; <strong>iTerm2</strong> &#x7684;&#x7EC8;&#x7AEF;&#x63D2;&#x4EF6;&#x652F;&#x6301; <strong>SSH</strong>&#x3001;<strong>Telnet</strong>&#x3001;<strong>&#x4E32;&#x53E3;&#xFF08;RS232&#xFF09;</strong>&#xFF0C;&#x4EE5;&#x53CA;&#x4EFB;&#x4F55;&#x53EF;&#x901A;&#x8FC7; <strong>&#x81EA;&#x5B9A;&#x4E49;&#x7EC8;&#x7AEF;</strong> &#x4F7F;&#x7528;&#x7684;&#x5176;&#x4ED6;&#x57FA;&#x4E8E;&#x7EC8;&#x7AEF;&#x7684;&#x8FDE;&#x63A5;&#x7C7B;&#x578B;&#x3002;
             <br /><br />
-            <strong>自定义</strong>
+            <strong>&#x81EA;&#x5B9A;&#x4E49;</strong>
             <br />
             <ul>
-            	<li>可自定义字体、字号和样式</li>
-            	<li>可配置 ANSI 调色板</li>
-            	<li>支持 iTerm2 配色方案</li>
+            	<li>&#x53EF;&#x81EA;&#x5B9A;&#x4E49;&#x5B57;&#x4F53;&#x3001;&#x5B57;&#x53F7;&#x548C;&#x6837;&#x5F0F;</li>
+            	<li>&#x53EF;&#x914D;&#x7F6E; ANSI &#x8C03;&#x8272;&#x677F;</li>
+            	<li>&#x652F;&#x6301; iTerm2 &#x914D;&#x8272;&#x65B9;&#x6848;</li>
             </ul>
             <br />
-            <strong>输入</strong>
+            <strong>&#x8F93;&#x5165;</strong>
             <br />
             <ul>
-            	<li>支持配置按键映射</li>
-            	<li>使用按键序列任务自动化键盘输入</li>
-            	<li>可自定义键盘行为</li>
-            	<li>可自定义滚动缓冲行数</li>
+            	<li>&#x652F;&#x6301;&#x914D;&#x7F6E;&#x6309;&#x952E;&#x6620;&#x5C04;</li>
+            	<li>&#x4F7F;&#x7528;&#x6309;&#x952E;&#x5E8F;&#x5217;&#x4EFB;&#x52A1;&#x81EA;&#x52A8;&#x5316;&#x952E;&#x76D8;&#x8F93;&#x5165;</li>
+            	<li>&#x53EF;&#x81EA;&#x5B9A;&#x4E49;&#x952E;&#x76D8;&#x884C;&#x4E3A;</li>
+            	<li>&#x53EF;&#x81EA;&#x5B9A;&#x4E49;&#x6EDA;&#x52A8;&#x7F13;&#x51B2;&#x884C;&#x6570;</li>
             </ul>
             <br />
-            <strong>日志管理</strong>
+            <strong>&#x65E5;&#x5FD7;&#x7BA1;&#x7406;</strong>
             <br />
             <ul>
-            	<li>创建并整理日志文件以满足文档记录需求</li>
-            	<li>日志仪表板提供对日志文件的便捷访问和管理</li>
-            	<li>查看、搜索和导出日志文件</li>
+            	<li>&#x521B;&#x5EFA;&#x5E76;&#x6574;&#x7406;&#x65E5;&#x5FD7;&#x6587;&#x4EF6;&#x4EE5;&#x6EE1;&#x8DB3;&#x6587;&#x6863;&#x8BB0;&#x5F55;&#x9700;&#x6C42;</li>
+            	<li>&#x65E5;&#x5FD7;&#x4EEA;&#x8868;&#x677F;&#x63D0;&#x4F9B;&#x5BF9;&#x65E5;&#x5FD7;&#x6587;&#x4EF6;&#x7684;&#x4FBF;&#x6377;&#x8BBF;&#x95EE;&#x548C;&#x7BA1;&#x7406;</li>
+            	<li>&#x67E5;&#x770B;&#x3001;&#x641C;&#x7D22;&#x548C;&#x5BFC;&#x51FA;&#x65E5;&#x5FD7;&#x6587;&#x4EF6;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>支持将私钥文件嵌入文档</li>
-            	<li>支持 X11 转发</li>
-            	<li>编码和终端类型配置</li>
-            	<li>连接专属设置（例如 keepalive）</li>
-            	<li>隧道配置</li>
-            	<li>串口通信配置</li>
-            	<li>支持 iTerm2 Triggers</li>
-            	<li>支持 iTerm2 Shell Integration 功能</li>
-            	<li>支持安全网关</li>
+            	<li>&#x652F;&#x6301;&#x5C06;&#x79C1;&#x94A5;&#x6587;&#x4EF6;&#x5D4C;&#x5165;&#x6587;&#x6863;</li>
+            	<li>&#x652F;&#x6301; X11 &#x8F6C;&#x53D1;</li>
+            	<li>&#x7F16;&#x7801;&#x548C;&#x7EC8;&#x7AEF;&#x7C7B;&#x578B;&#x914D;&#x7F6E;</li>
+            	<li>&#x8FDE;&#x63A5;&#x4E13;&#x5C5E;&#x8BBE;&#x7F6E;&#xFF08;&#x4F8B;&#x5982; keepalive&#xFF09;</li>
+            	<li>&#x96A7;&#x9053;&#x914D;&#x7F6E;</li>
+            	<li>&#x4E32;&#x53E3;&#x901A;&#x4FE1;&#x914D;&#x7F6E;</li>
+            	<li>&#x652F;&#x6301; iTerm2 Triggers</li>
+            	<li>&#x652F;&#x6301; iTerm2 Shell Integration &#x529F;&#x80FD;</li>
+            	<li>&#x652F;&#x6301;&#x5B89;&#x5168;&#x7F51;&#x5173;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>SSH;Telnet</SupportedProtocols>

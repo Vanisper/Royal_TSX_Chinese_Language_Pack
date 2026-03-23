@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>50ee9d0f-4335-4c1d-8197-b2608a07e301</ID>
-    <Name>VNC（基于 RoyalVNC）</Name>
-    <ShortDescription>使用 VNC 连接到 Linux、Windows 和 macOS。</ShortDescription>
+    <Name>VNC (based on RoyalVNC)</Name>
+    <ShortDescription>Connect to Linux, Windows and macOS using VNC.</ShortDescription>
     <Description><![CDATA[
-            <i>使用 VNC 连接到 Linux、Windows 和 macOS 计算机。</i>
+            <i>&#x4F7F;&#x7528; VNC &#x8FDE;&#x63A5;&#x5230; Linux&#x3001;Windows &#x548C; macOS &#x8BA1;&#x7B97;&#x673A;&#x3002;</i>
             <br /><br />
-            基于 <strong>RoyalVNC</strong> 的 VNC 插件使您能够连接运行 <strong>VNC</strong> 或 <strong>Apple 远程桌面/屏幕共享</strong> 的远程主机。
+            &#x57FA;&#x4E8E; <strong>RoyalVNC</strong> &#x7684; VNC &#x63D2;&#x4EF6;&#x4F7F;&#x60A8;&#x80FD;&#x591F;&#x8FDE;&#x63A5;&#x8FD0;&#x884C; <strong>VNC</strong> &#x6216; <strong>Apple &#x8FDC;&#x7A0B;&#x684C;&#x9762;/&#x5C4F;&#x5E55;&#x5171;&#x4EAB;</strong> &#x7684;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x3002;
             <br /><br />
-            <strong>安全性</strong>
+            <strong>&#x5B89;&#x5168;&#x6027;</strong>
             <br />
             <ul>
-            	<li>支持 macOS 身份验证</li>
-            	<li>支持 VNC 身份验证</li>
-            	<li>支持 UltraVNC MS-Logon II 身份验证</li>
+            	<li>&#x652F;&#x6301; macOS &#x8EAB;&#x4EFD;&#x9A8C;&#x8BC1;</li>
+            	<li>&#x652F;&#x6301; VNC &#x8EAB;&#x4EFD;&#x9A8C;&#x8BC1;</li>
+            	<li>&#x652F;&#x6301; UltraVNC MS-Logon II &#x8EAB;&#x4EFD;&#x9A8C;&#x8BC1;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>支持剪贴板共享</li>
-            	<li>支持屏幕缩放</li>
-            	<li>可自定义键盘行为</li>
-            	<li>支持安全网关</li>
+            	<li>&#x652F;&#x6301;&#x526A;&#x8D34;&#x677F;&#x5171;&#x4EAB;</li>
+            	<li>&#x652F;&#x6301;&#x5C4F;&#x5E55;&#x7F29;&#x653E;</li>
+            	<li>&#x53EF;&#x81EA;&#x5B9A;&#x4E49;&#x952E;&#x76D8;&#x884C;&#x4E3A;</li>
+            	<li>&#x652F;&#x6301;&#x5B89;&#x5168;&#x7F51;&#x5173;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>VNC</SupportedProtocols>

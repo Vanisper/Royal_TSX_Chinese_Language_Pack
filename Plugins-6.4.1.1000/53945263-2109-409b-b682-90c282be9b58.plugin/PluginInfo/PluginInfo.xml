@@ -2,11 +2,11 @@
 <PluginInfo>
     <ID>53945263-2109-409b-b682-90c282be9b58</ID>
     <Name>TeamViewer</Name>
-    <ShortDescription>通过 TeamViewer 建立连接。</ShortDescription>
+    <ShortDescription>Connect with TeamViewer.</ShortDescription>
     <Description><![CDATA[
-            <i>通过 TeamViewer 建立连接</i>
+            <i>&#x901A;&#x8FC7; TeamViewer &#x5EFA;&#x7ACB;&#x8FDE;&#x63A5;</i>
             <br /><br />
-            <strong>TeamViewer</strong> 插件允许您<strong>远程控制</strong>运行 TeamViewer 的计算机。同时还支持 <strong>会议</strong>、<strong>VPN</strong>、<strong>文件传输</strong> 以及查看 TeamViewer <strong>管理控制台</strong> 等其他连接类型。
+            <strong>TeamViewer</strong> &#x63D2;&#x4EF6;&#x5141;&#x8BB8;&#x60A8;<strong>&#x8FDC;&#x7A0B;&#x63A7;&#x5236;</strong>&#x8FD0;&#x884C; TeamViewer &#x7684;&#x8BA1;&#x7B97;&#x673A;&#x3002;&#x540C;&#x65F6;&#x8FD8;&#x652F;&#x6301; <strong>&#x4F1A;&#x8BAE;</strong>&#x3001;<strong>VPN</strong>&#x3001;<strong>&#x6587;&#x4EF6;&#x4F20;&#x8F93;</strong> &#x4EE5;&#x53CA;&#x67E5;&#x770B; TeamViewer <strong>&#x7BA1;&#x7406;&#x63A7;&#x5236;&#x53F0;</strong> &#x7B49;&#x5176;&#x4ED6;&#x8FDE;&#x63A5;&#x7C7B;&#x578B;&#x3002;
         ]]></Description>
     <SupportedProtocols>TeamViewer</SupportedProtocols>
     <ObjectTypeName>RoyalTeamViewerConnection</ObjectTypeName>
@@ -19,7 +19,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>闭源</LicenseType>
+    <LicenseType>Closed Source</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>TeamViewerPlugin</PluginFrameworks>
 </PluginInfo>

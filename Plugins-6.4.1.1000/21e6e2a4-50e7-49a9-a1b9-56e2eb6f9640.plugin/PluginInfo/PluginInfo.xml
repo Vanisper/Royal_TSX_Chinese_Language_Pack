@@ -2,32 +2,32 @@
 <PluginInfo>
     <ID>21e6e2a4-50e7-49a9-a1b9-56e2eb6f9640</ID>
     <Name>PowerShell</Name>
-    <ShortDescription>在 Windows 计算机上执行脚本或命令。</ShortDescription>
+    <ShortDescription>Execute scripts or commands on Windows computers.</ShortDescription>
     <Description><![CDATA[
-            <i>在一台或多台 Windows 计算机上执行自定义脚本或命令。</i>
+            <i>&#x5728;&#x4E00;&#x53F0;&#x6216;&#x591A;&#x53F0; Windows &#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#x6267;&#x884C;&#x81EA;&#x5B9A;&#x4E49;&#x811A;&#x672C;&#x6216;&#x547D;&#x4EE4;&#x3002;</i>
             <br /><br />
-            借助 Royal TSX 内置并支持语法高亮的脚本编辑器管理您的 <strong>PowerShell</strong> 脚本。还可以通过标准的 PowerShell 脚本参数，将替换令牌传递给脚本。
+            &#x501F;&#x52A9; Royal TSX &#x5185;&#x7F6E;&#x5E76;&#x652F;&#x6301;&#x8BED;&#x6CD5;&#x9AD8;&#x4EAE;&#x7684;&#x811A;&#x672C;&#x7F16;&#x8F91;&#x5668;&#x7BA1;&#x7406;&#x60A8;&#x7684; <strong>PowerShell</strong> &#x811A;&#x672C;&#x3002;&#x8FD8;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6807;&#x51C6;&#x7684; PowerShell &#x811A;&#x672C;&#x53C2;&#x6570;&#xFF0C;&#x5C06;&#x66FF;&#x6362;&#x4EE4;&#x724C;&#x4F20;&#x9012;&#x7ED9;&#x811A;&#x672C;&#x3002;
             <br /><br />
-            <strong>常规</strong>
+            <strong>&#x5E38;&#x89C4;</strong>
             <br />
             <ul>
-            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-            	<li>在一台或多台计算机上执行 PowerShell 脚本</li>
-            	<li>在仪表板中自动显示结果</li>
-            	<li>可配置的自动刷新</li>
-            	<li>在 Royal TSX 中使用语法高亮编辑 PowerShell 脚本</li>
-            	<li>以网格形式显示结果</li>
-            	<li>以文本形式显示结果</li>
+            	<li>&#x9700;&#x8981; <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>&#x5728;&#x4E00;&#x53F0;&#x6216;&#x591A;&#x53F0;&#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#x6267;&#x884C; PowerShell &#x811A;&#x672C;</li>
+            	<li>&#x5728;&#x4EEA;&#x8868;&#x677F;&#x4E2D;&#x81EA;&#x52A8;&#x663E;&#x793A;&#x7ED3;&#x679C;</li>
+            	<li>&#x53EF;&#x914D;&#x7F6E;&#x7684;&#x81EA;&#x52A8;&#x5237;&#x65B0;</li>
+            	<li>&#x5728; Royal TSX &#x4E2D;&#x4F7F;&#x7528;&#x8BED;&#x6CD5;&#x9AD8;&#x4EAE;&#x7F16;&#x8F91; PowerShell &#x811A;&#x672C;</li>
+            	<li>&#x4EE5;&#x7F51;&#x683C;&#x5F62;&#x5F0F;&#x663E;&#x793A;&#x7ED3;&#x679C;</li>
+            	<li>&#x4EE5;&#x6587;&#x672C;&#x5F62;&#x5F0F;&#x663E;&#x793A;&#x7ED3;&#x679C;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>配置脚本参数（支持替换令牌）</li>
-            	<li>测试脚本执行</li>
-            	<li>为文本输出自定义字体、字号和控制台颜色</li>
-            	<li>快速搜索</li>
-            	<li>列筛选</li>
+            	<li>&#x914D;&#x7F6E;&#x811A;&#x672C;&#x53C2;&#x6570;&#xFF08;&#x652F;&#x6301;&#x66FF;&#x6362;&#x4EE4;&#x724C;&#xFF09;</li>
+            	<li>&#x6D4B;&#x8BD5;&#x811A;&#x672C;&#x6267;&#x884C;</li>
+            	<li>&#x4E3A;&#x6587;&#x672C;&#x8F93;&#x51FA;&#x81EA;&#x5B9A;&#x4E49;&#x5B57;&#x4F53;&#x3001;&#x5B57;&#x53F7;&#x548C;&#x63A7;&#x5236;&#x53F0;&#x989C;&#x8272;</li>
+            	<li>&#x5FEB;&#x901F;&#x641C;&#x7D22;</li>
+            	<li>&#x5217;&#x7B5B;&#x9009;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>PowerShell</SupportedProtocols>
@@ -41,7 +41,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support/</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>闭源</LicenseType>
+    <LicenseType>Closed Source</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>PowerShellPlugin</PluginFrameworks>
 </PluginInfo>

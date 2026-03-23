@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PluginInfo>
     <ID>ecda13f4-a5b5-4791-a027-b947008c943f</ID>
-    <Name>终端服务</Name>
-    <ShortDescription>查看并管理终端服务会话。</ShortDescription>
+    <Name>Terminal Services</Name>
+    <ShortDescription>View and manage terminal service sessions.</ShortDescription>
     <Description><![CDATA[
-            <i>查看并管理来自一台或多台计算机的终端服务会话。</i>
+            <i>&#x67E5;&#x770B;&#x5E76;&#x7BA1;&#x7406;&#x6765;&#x81EA;&#x4E00;&#x53F0;&#x6216;&#x591A;&#x53F0;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x7EC8;&#x7AEF;&#x670D;&#x52A1;&#x4F1A;&#x8BDD;&#x3002;</i>
             <br /><br />
-            <strong>终端服务</strong> 管理连接允许您在同一视图中管理多台计算机上的终端服务会话。提供重置（强制注销）、发送消息和重启服务器等多种重要管理任务。
+            <strong>&#x7EC8;&#x7AEF;&#x670D;&#x52A1;</strong> &#x7BA1;&#x7406;&#x8FDE;&#x63A5;&#x5141;&#x8BB8;&#x60A8;&#x5728;&#x540C;&#x4E00;&#x89C6;&#x56FE;&#x4E2D;&#x7BA1;&#x7406;&#x591A;&#x53F0;&#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#x7684;&#x7EC8;&#x7AEF;&#x670D;&#x52A1;&#x4F1A;&#x8BDD;&#x3002;&#x63D0;&#x4F9B;&#x91CD;&#x7F6E;&#xFF08;&#x5F3A;&#x5236;&#x6CE8;&#x9500;&#xFF09;&#x3001;&#x53D1;&#x9001;&#x6D88;&#x606F;&#x548C;&#x91CD;&#x542F;&#x670D;&#x52A1;&#x5668;&#x7B49;&#x591A;&#x79CD;&#x91CD;&#x8981;&#x7BA1;&#x7406;&#x4EFB;&#x52A1;&#x3002;
             <br /><br />
-            <strong>常规</strong>
+            <strong>&#x5E38;&#x89C4;</strong>
             <br />
             <ul>
-            	<li>需要 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-            	<li>跟踪并列出所有终端服务会话</li>
-            	<li>在仪表板中自动显示数据</li>
-            	<li>重置终端服务会话（强制注销）</li>
-            	<li>向终端服务会话发送消息</li>
-            	<li>重启服务器</li>
+            	<li>&#x9700;&#x8981; <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>&#x8DDF;&#x8E2A;&#x5E76;&#x5217;&#x51FA;&#x6240;&#x6709;&#x7EC8;&#x7AEF;&#x670D;&#x52A1;&#x4F1A;&#x8BDD;</li>
+            	<li>&#x5728;&#x4EEA;&#x8868;&#x677F;&#x4E2D;&#x81EA;&#x52A8;&#x663E;&#x793A;&#x6570;&#x636E;</li>
+            	<li>&#x91CD;&#x7F6E;&#x7EC8;&#x7AEF;&#x670D;&#x52A1;&#x4F1A;&#x8BDD;&#xFF08;&#x5F3A;&#x5236;&#x6CE8;&#x9500;&#xFF09;</li>
+            	<li>&#x5411;&#x7EC8;&#x7AEF;&#x670D;&#x52A1;&#x4F1A;&#x8BDD;&#x53D1;&#x9001;&#x6D88;&#x606F;</li>
+            	<li>&#x91CD;&#x542F;&#x670D;&#x52A1;&#x5668;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>快速搜索</li>
-            	<li>列筛选</li>
+            	<li>&#x5FEB;&#x901F;&#x641C;&#x7D22;</li>
+            	<li>&#x5217;&#x7B5B;&#x9009;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>TerminalServices</SupportedProtocols>
@@ -37,7 +37,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>闭源</LicenseType>
+    <LicenseType>Closed Source</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>TerminalServicesPlugin</PluginFrameworks>
 </PluginInfo>

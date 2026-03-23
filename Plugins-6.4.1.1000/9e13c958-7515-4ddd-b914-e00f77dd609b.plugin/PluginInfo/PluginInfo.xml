@@ -2,30 +2,30 @@
 <PluginInfo>
     <ID>9e13c958-7515-4ddd-b914-e00f77dd609b</ID>
     <Name>VMware</Name>
-    <ShortDescription>查看并管理 VMware 实例。</ShortDescription>
+    <ShortDescription>View and manage VMware instances.</ShortDescription>
     <Description><![CDATA[
-            <i>查看并管理来自一个或多个 VMware（ESXi/vCenter）主机的 VMware 实例。</i>
+            <i>&#x67E5;&#x770B;&#x5E76;&#x7BA1;&#x7406;&#x6765;&#x81EA;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A; VMware&#xFF08;ESXi/vCenter&#xFF09;&#x4E3B;&#x673A;&#x7684; VMware &#x5B9E;&#x4F8B;&#x3002;</i>
             <br /><br />
-            <strong>VMware</strong> 管理连接允许您在同一视图中管理多个 VMware 主机上的实例。提供开机、关机、挂起、关闭操作系统和重启等管理任务。此外，您还可以快速连接到任意正在运行的 VMware 实例控制台。
+            <strong>VMware</strong> &#x7BA1;&#x7406;&#x8FDE;&#x63A5;&#x5141;&#x8BB8;&#x60A8;&#x5728;&#x540C;&#x4E00;&#x89C6;&#x56FE;&#x4E2D;&#x7BA1;&#x7406;&#x591A;&#x4E2A; VMware &#x4E3B;&#x673A;&#x4E0A;&#x7684;&#x5B9E;&#x4F8B;&#x3002;&#x63D0;&#x4F9B;&#x5F00;&#x673A;&#x3001;&#x5173;&#x673A;&#x3001;&#x6302;&#x8D77;&#x3001;&#x5173;&#x95ED;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x91CD;&#x542F;&#x7B49;&#x7BA1;&#x7406;&#x4EFB;&#x52A1;&#x3002;&#x6B64;&#x5916;&#xFF0C;&#x60A8;&#x8FD8;&#x53EF;&#x4EE5;&#x5FEB;&#x901F;&#x8FDE;&#x63A5;&#x5230;&#x4EFB;&#x610F;&#x6B63;&#x5728;&#x8FD0;&#x884C;&#x7684; VMware &#x5B9E;&#x4F8B;&#x63A7;&#x5236;&#x53F0;&#x3002;
             <br /><br />
-            <strong>常规</strong>
+            <strong>&#x5E38;&#x89C4;</strong>
             <br />
             <ul>
-            	<li>支持 <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
-            	<li>跟踪并列出来自一个或多个 VMware 主机的实例</li>
-            	<li>管理 VMware 实例（开机、关机、挂起、关闭、重启等）</li>
-            	<li>在仪表板中自动显示数据</li>
-            	<li>可配置的自动刷新</li>
-            	<li>连接到任意 VMware 实例的控制台</li>
-            	<li>支持向实例发起 RDP、VNC 或 SSH 临时连接</li>
+            	<li>&#x652F;&#x6301; <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+            	<li>&#x8DDF;&#x8E2A;&#x5E76;&#x5217;&#x51FA;&#x6765;&#x81EA;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A; VMware &#x4E3B;&#x673A;&#x7684;&#x5B9E;&#x4F8B;</li>
+            	<li>&#x7BA1;&#x7406; VMware &#x5B9E;&#x4F8B;&#xFF08;&#x5F00;&#x673A;&#x3001;&#x5173;&#x673A;&#x3001;&#x6302;&#x8D77;&#x3001;&#x5173;&#x95ED;&#x3001;&#x91CD;&#x542F;&#x7B49;&#xFF09;</li>
+            	<li>&#x5728;&#x4EEA;&#x8868;&#x677F;&#x4E2D;&#x81EA;&#x52A8;&#x663E;&#x793A;&#x6570;&#x636E;</li>
+            	<li>&#x53EF;&#x914D;&#x7F6E;&#x7684;&#x81EA;&#x52A8;&#x5237;&#x65B0;</li>
+            	<li>&#x8FDE;&#x63A5;&#x5230;&#x4EFB;&#x610F; VMware &#x5B9E;&#x4F8B;&#x7684;&#x63A7;&#x5236;&#x53F0;</li>
+            	<li>&#x652F;&#x6301;&#x5411;&#x5B9E;&#x4F8B;&#x53D1;&#x8D77; RDP&#x3001;VNC &#x6216; SSH &#x4E34;&#x65F6;&#x8FDE;&#x63A5;</li>
             </ul>
             <br />
-            <strong>高级功能</strong>
+            <strong>&#x9AD8;&#x7EA7;&#x529F;&#x80FD;</strong>
             <br />
             <ul>
-            	<li>快速搜索</li>
-            	<li>列筛选</li>
-            	<li>支持安全网关</li>
+            	<li>&#x5FEB;&#x901F;&#x641C;&#x7D22;</li>
+            	<li>&#x5217;&#x7B5B;&#x9009;</li>
+            	<li>&#x652F;&#x6301;&#x5B89;&#x5168;&#x7F51;&#x5173;</li>
             </ul>
         ]]></Description>
     <SupportedProtocols>VMware</SupportedProtocols>
@@ -39,7 +39,7 @@
     <PublisherEMail>office@royalapps.com</PublisherEMail>
     <SupportURL>https://www.royalapps.com/go/support</SupportURL>
     <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
-    <LicenseType>闭源</LicenseType>
+    <LicenseType>Closed Source</LicenseType>
     <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
     <PluginFrameworks>VMwarePlugin</PluginFrameworks>
 </PluginInfo>
