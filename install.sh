@@ -122,9 +122,25 @@ copy_tree_contents() {
     cp -R "$source_dir/." "$target_dir/"
 }
 
+# 复制单个文件
+copy_file() {
+    local source_file="$1"
+    local target_file="$2"
+
+    if [ ! -f "$source_file" ]; then
+        echo -e "\033[33m未找到源文件:${source_file}\033[0m"
+        return 1
+    fi
+
+    mkdir -p "$(dirname "$target_file")" || return 1
+    cp "$source_file" "$target_file"
+}
+
 # 汉化主程序
 translate_main_app() {
-    if copy_tree_contents "Main Application" "$1/Contents/Resources"; then
+    local target_dir="$1/Contents/Resources/zh_Hans.lproj"
+
+    if copy_tree_contents "Main Application/zh_Hans.lproj" "$target_dir"; then
         echo "主程序汉化完成!"
     else
         echo -e "\033[31m主程序汉化失败!\033[0m"
@@ -146,10 +162,35 @@ translate_plugins() {
             echo -e "\033[33m${name}插件未安装!\033[0m"
         elif [ ! -d "$source_dir" ]; then
             echo -e "\033[33m未找到${name}插件的汉化资源，已跳过!\033[0m"
-        elif cp -R "$source_dir/." "$target_dir/"; then
-            echo "${name}插件汉化完成!"
         else
-            echo -e "\033[31m${name}插件汉化失败!\033[0m"
+            local success=1
+            local copied=0
+
+            while IFS= read -r zh_dir; do
+                local relative_dir="${zh_dir#$source_dir/}"
+                if copy_tree_contents "$zh_dir" "$target_dir/$relative_dir"; then
+                    copied=1
+                else
+                    success=0
+                    break
+                fi
+            done < <(find "$source_dir" -type d -name "zh_Hans.lproj" | sort)
+
+            if [ "$success" -eq 1 ] && [ -f "$source_dir/PluginInfo/PluginInfo.xml" ]; then
+                if copy_file "$source_dir/PluginInfo/PluginInfo.xml" "$target_dir/PluginInfo/PluginInfo.xml"; then
+                    copied=1
+                else
+                    success=0
+                fi
+            fi
+
+            if [ "$success" -eq 1 ] && [ "$copied" -eq 1 ]; then
+                echo "${name}插件汉化完成!"
+            elif [ "$success" -eq 1 ]; then
+                echo -e "\033[33m未找到${name}插件可复制的汉化文件，已跳过!\033[0m"
+            else
+                echo -e "\033[31m${name}插件汉化失败!\033[0m"
+            fi
         fi
     done
 }
@@ -158,14 +199,42 @@ translate_plugins() {
 translate_plugin_gallery() {
     local source_dir="$1"
     local target_dir="$2"
+    local success=1
+    local copied=0
 
     if [ -z "$target_dir" ]; then
         echo -e "\033[33m未检测到插件中心目录，已跳过插件中心汉化。\033[0m"
         return
     fi
 
-    if copy_tree_contents "$source_dir" "$target_dir"; then
+    if [ -f "$source_dir/index.html" ]; then
+        if copy_file "$source_dir/index.html" "$target_dir/index.html"; then
+            copied=1
+        else
+            success=0
+        fi
+    fi
+
+    if [ "$success" -eq 1 ] && [ -f "$source_dir/js/language_cn.js" ]; then
+        if copy_file "$source_dir/js/language_cn.js" "$target_dir/js/language_cn.js"; then
+            copied=1
+        else
+            success=0
+        fi
+    fi
+
+    if [ "$success" -eq 1 ] && [ -f "$source_dir/cn.lproj/Localizable.strings.js" ]; then
+        if copy_file "$source_dir/cn.lproj/Localizable.strings.js" "$target_dir/cn.lproj/Localizable.strings.js"; then
+            copied=1
+        else
+            success=0
+        fi
+    fi
+
+    if [ "$success" -eq 1 ] && [ "$copied" -eq 1 ]; then
         echo "插件中心汉化完成!"
+    elif [ "$success" -eq 1 ]; then
+        echo -e "\033[33m未找到插件中心可复制的汉化文件，已跳过插件中心汉化。\033[0m"
     else
         echo -e "\033[31m插件中心汉化失败!\033[0m"
     fi
@@ -180,7 +249,7 @@ translate_getting_started() {
         return
     fi
 
-    if copy_tree_contents "GettingStarted" "$target_dir"; then
+    if copy_file "GettingStarted/index.htm" "$target_dir/index.htm"; then
         echo "入门简介汉化完成!"
     else
         echo -e "\033[31m入门简介汉化失败!\033[0m"
