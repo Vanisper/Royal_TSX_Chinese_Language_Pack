@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>53945263-2109-409b-b682-90c282be9b58</ID>
+    <Name>TeamViewer</Name>
+    <ShortDescription>Connect with TeamViewer.</ShortDescription>
+    <Description><![CDATA[
+			<i>Connect with TeamViewer</i>
+			<br /><br />
+			The <strong>TeamViewer</strong> plugin allows you to <strong>remote control</strong> computers running TeamViewer. Other connection types like <strong>Meeting</strong>, <strong>VPN</strong>, <strong>File Transfer</strong> and viewing the TeamViewer <strong>Management Console</strong> are also supported.
+		]]></Description>
+    <SupportedProtocols>TeamViewer</SupportedProtocols>
+    <ObjectTypeName>RoyalTeamViewerConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#teamviewer</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>TeamViewerPlugin</PluginFrameworks>
+</PluginInfo>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>21e6e2a4-50e7-49a9-a1b9-56e2eb6f9640</ID>
+    <Name>PowerShell</Name>
+    <ShortDescription>Execute scripts or commands on Windows computers.</ShortDescription>
+    <Description><![CDATA[
+			<i>Execute custom scripts or commands on one or more Windows computers.</i>
+			<br /><br />
+			Manage your <strong>PowerShell</strong> scripts in Royal TSX using the built-in script editor with syntax highlighting support. Replacement tokens can be passed on to your scripts using standard PowerShell script parameters.
+			<br /><br />
+			<strong>General</strong>
+			<br />
+			<ul>
+				<li>Requires <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+				<li>Execute PowerShell scripts on one or more computers</li>
+				<li>Automatically display the results in the dashboard</li>
+				<li>Configurable auto refresh</li>
+				<li>Edit PowerShell scripts in Royal TSX with syntax highlighting</li>
+				<li>Display the results in a grid</li>
+				<li>Display the results as text</li>
+			</ul>
+			<br />
+			<strong>Advanced Features</strong>
+			<br />
+			<ul>
+				<li>Configure script parameters (with replacement token support)</li>
+				<li>Test script execution</li>
+				<li>Customize text font, size and console color for text output</li>
+				<li>Quick search</li>
+				<li>Column filter</li>
+			</ul>
+		]]></Description>
+    <SupportedProtocols>PowerShell</SupportedProtocols>
+    <ObjectTypeName>RoyalPowerShellConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#powershell</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support/</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>PowerShellPlugin</PluginFrameworks>
+</PluginInfo>

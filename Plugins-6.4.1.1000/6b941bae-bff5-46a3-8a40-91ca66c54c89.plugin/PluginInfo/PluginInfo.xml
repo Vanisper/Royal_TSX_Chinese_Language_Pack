@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>6b941bae-bff5-46a3-8a40-91ca66c54c89</ID>
+    <Name>Windows Events View</Name>
+    <ShortDescription>Display and monitor Windows Event Log entries.</ShortDescription>
+    <Description><![CDATA[
+			<i>Display and monitor Windows Event Log entries from one or more remote Windows computers.</i>
+			<br /><br />
+			The <strong>Windows Events View</strong> offers new ways to slice and dice event log data. It&apos;s so flexible and customizable, not even Windows&apos; own Event Viewer can compete. Connection templates make it easy to analyze your existing connections&apos; log data.
+			<br /><br />
+			<strong>General</strong>
+			<br />
+			<ul>
+				<li>Requires <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+				<li>List Windows events from one or more computers</li>
+				<li>Automatically display data in the dashboard</li>
+				<li>Configurable auto refresh</li>
+				<li>Ability to limit the number of events</li>
+				<li>Details panel can be displayed or hidden</li>
+			</ul>
+			<br />
+			<strong>Advanced Features</strong>
+			<br />
+			<ul>
+				<li>Quick search</li>
+				<li>Column filter</li>
+				<li>Basic filtering (event log, level, event IDs and time range)</li>
+				<li>Advanced WQL-based filtering using custom queries</li>
+			</ul>
+		]]></Description>
+    <SupportedProtocols>WindowsEvents</SupportedProtocols>
+    <ObjectTypeName>RoyalWindowsEventsConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#winevents</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>WindowsEventsPlugin</PluginFrameworks>
+</PluginInfo>

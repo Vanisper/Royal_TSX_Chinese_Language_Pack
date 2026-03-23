@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>3e63afa6-61f6-4f9f-85bf-a773ab0408b0</ID>
+    <Name>File Transfer</Name>
+    <ShortDescription>Browse and transfer files using FTP, SFTP and SCP.</ShortDescription>
+    <Description><![CDATA[
+			<i>Browse and transfer files using FTP, SFTP and SCP.</i>
+			<br /><br />
+			The File Transfer Plugin for Royal TSX provides support for browsing and transferring files on <strong>FTP</strong>, <strong>SFTP</strong> and <strong>SCP</strong> file servers.
+			<br /><br />
+			<strong>General</strong>
+			<br />
+			<ul>
+				<li>Support for FTP</li>
+				<li>Support for FTP with Implicit SSL</li>
+				<li>Support for FTP with Explicit TLS/SSL</li>
+				<li>Support for SFTP</li>
+				<li>Support for SCP</li>
+				<li>Dual-pane file browser</li>
+				<li>Live editing (automatically upload locally changed files)</li>
+				<li>Quick Look Support</li>
+				<li>Support for Bonjour discovery of FTP and SFTP hosts</li>
+			</ul>
+			<br />
+			<strong>Advanced Features</strong>
+			<br />
+			<ul>
+				<li>Support for Passive Mode</li>
+				<li>Support for specifying initial paths</li>
+				<li>Support for showing hidden files and directories</li>
+				<li>Support for overwriting or skipping all files of a transfer</li>
+				<li>Support for restoring timestamps after file transfers</li>
+				<li>Support viewing and changing permissions</li>
+				<li>Support for using large buffers for file transfers</li>
+				<li>Support for specifying SFTP custom command</li>
+				<li>Certificate validation</li>
+				<li>Proxy support</li>
+				<li>Secure Gateway support</li>
+			</ul>
+		]]></Description>
+    <SupportedProtocols>FileTransfer</SupportedProtocols>
+    <ObjectTypeName>RoyalFileTransferConnection</ObjectTypeName>
+    <Version>6.4.1.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#filetransfer</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>FileTransferPlugin</PluginFrameworks>
+</PluginInfo>

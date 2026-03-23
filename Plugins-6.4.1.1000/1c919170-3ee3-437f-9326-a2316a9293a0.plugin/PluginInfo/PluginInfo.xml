@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>1c919170-3ee3-437f-9326-a2316a9293a0</ID>
+    <Name>Remote Desktop (based on FreeRDP)</Name>
+    <ShortDescription>Connect to Windows computers using RDP.</ShortDescription>
+    <Description><![CDATA[
+			<i>Connect to Windows Computers or to Hyper-V instance consoles using the Remote Desktop Protocol.</i>
+			<br /><br />
+			The <strong>FreeRDP</strong> based Remote Desktop Plugin for Royal TSX provides the most comprehensive set of features for integrated <strong>Remote Desktop Connections (RDP)</strong> available in the industry. On top of that, Royal TSX provides unique management capabilities to handle terminal sessions and control Hyper-V instances.
+			<br /><br />
+			<strong>Security</strong>
+			<br />
+			<ul>
+				<li>Network Level Authentication (NLA) support</li>
+				<li>Remote Desktop Gateway support</li>
+				<li>Secure Gateway support</li>
+				<li>HTTP and SOCKS Proxy support</li>
+				<li>Credential management support for automatic logon and Gateway credentials</li>
+				<li>Smart Card redirection support (Experimental)</li>
+			</ul>
+			<br />
+			<strong>Hyper-V Management</strong>
+			<br />
+			<ul>
+				<li>Requires <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+				<li>List all Hyper-V instances</li>
+				<li>Connect to the console of any Hyper-V instance</li>
+				<li>Create new connections to the console or computer based on a Hyper-V instance</li>
+				<li>Manage Hyper-V instances (stop, start, pause, save state)</li>
+			</ul>
+			<br />
+			<strong>Terminal Services Management</strong>
+			<br />
+			<ul>
+				<li>Requires <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+				<li>List all terminal service sessions</li>
+				<li>Reset (force logoff) terminal service sessions</li>
+				<li>Send messages to terminal service sessions</li>
+				<li>Restart the server</li>
+			</ul>
+			<br />
+			<strong>Advanced Features</strong>
+			<br />
+			<ul>
+				<li>Support for automatic DPI scaling in HiDPI/Retina sessions</li>
+				<li>Support for zooming in and out of HiDPI/Retina sessions</li>
+				<li>Display options with Smart Reconnect and Smart Sizing</li>
+				<li>Full screen with multi-monitor support</li>
+				<li>Compression, Caching, Load Balance Info and more</li>
+				<li>Performance settings</li>
+				<li>Drive, printer, clipboard, smart card (experimental), audio and microphone redirection</li>
+				<li>Change the keyboard layout and pass through Windows keys or accelerators</li>
+				<li>Use macOS keyboard shortcuts for common operations like copy and paste</li>
+				<li>Support for remapping modifier keys</li>
+				<li>Start program configuration</li>
+			</ul>
+		]]></Description>
+    <SupportedProtocols>RDP</SupportedProtocols>
+    <ObjectTypeName>RoyalRDSConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#rdp</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>FreeRDPPlugin</PluginFrameworks>
+</PluginInfo>

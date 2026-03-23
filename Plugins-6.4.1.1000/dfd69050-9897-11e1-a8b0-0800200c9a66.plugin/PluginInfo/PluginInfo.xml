@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>dfd69050-9897-11e1-a8b0-0800200c9a66</ID>
+    <Name>VNC (based on Chicken)</Name>
+    <ShortDescription>Connect to Windows, macOS and Linux using VNC.</ShortDescription>
+    <Description><![CDATA[
+			<i>Connect to Windows, macOS and Linux Computers running VNC or Apple Remote Desktop.</i>
+			<br /><br />
+			The <strong>Chicken</strong> based VNC plugin enables you to connect to remote hosts running <strong>VNC</strong> or <strong>Apple Remote Desktop</strong>.
+			<br /><br />
+			<strong>Security</strong>
+			<br />
+			<ul>
+				<li>VNC authentication support</li>
+				<li>Apple Remote Desktop/Screen Sharing authentication support</li>
+				<li>UltraVNC MS-Logon II authentication support</li>
+			</ul>
+			<br />
+			<strong>Advanced Features</strong>
+			<br />
+			<ul>
+				<li>Clipboard sharing support</li>
+				<li>Screen scaling support</li>
+				<li>Customizable keyboard behavior</li>
+				<li>JPEG and CopyRect encoding support</li>
+				<li>Secure Gateway support</li>
+			</ul>
+		]]></Description>
+    <SupportedProtocols>VNC</SupportedProtocols>
+    <ObjectTypeName>RoyalVNCConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#vnc-chicken</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>GPL V2</LicenseType>
+    <LicenseURL>https://github.com/royalapplications/royaltsx-v6-oss/blob/main/Native/ConnectionPlugins/Chicken/Documentation/GNU%20Public%20License.txt</LicenseURL>
+    <PluginFrameworks>ChickenPlugin</PluginFrameworks>
+</PluginInfo>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>49253779-c4b7-43c0-bf33-0654f1589481</ID>
+    <Name>Windows Services</Name>
+    <ShortDescription>View and manage Windows services.</ShortDescription>
+    <Description><![CDATA[
+			<i>View and manage Windows services from one or more computers.</i>
+			<br /><br />
+			The <strong>Windows Services</strong> management connection allows you to manage Windows services from multiple computers in one view. Critical management tasks including start, stop and restart, are available.
+			<br /><br />
+			<strong>General</strong>
+			<br />
+			<ul>
+				<li>Requires <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+				<li>List Windows services</li>
+				<li>Display data automatically in the dashboard</li>
+				<li>Start, stop and restart Windows services</li>
+				<li>Configurable auto refresh</li>
+				<li>Details panel can be displayed or hidden</li>
+			</ul>
+			<br />
+			<strong>Advanced Features</strong>
+			<br />
+			<ul>
+				<li>Quick search</li>
+				<li>Column filter</li>
+				<li>Advanced WQL-based filtering using custom queries</li>
+			</ul>
+		]]></Description>
+    <SupportedProtocols>WindowsServices</SupportedProtocols>
+    <ObjectTypeName>RoyalWindowsServicesConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#winservices</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>WindowsServicesPlugin</PluginFrameworks>
+</PluginInfo>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>9e13c958-7515-4ddd-b914-e00f77dd609b</ID>
+    <Name>VMware</Name>
+    <ShortDescription>View and manage VMware instances.</ShortDescription>
+    <Description><![CDATA[
+			<i>View and manage VMware instances from one or more VMware (ESXi/vCenter) hosts.</i>
+			<br /><br />
+			The <strong>VMware</strong> management connection allows you to manage instances from multiple VMware hosts in one view. Management tasks, including power on, power off, suspend, shutdown and restart, are available. Plus, you can quickly connect to the console of any running VMware instance.
+			<br /><br />
+			<strong>General</strong>
+			<br />
+			<ul>
+				<li><a href="https://www.royalapps.com/server" target="_blank">Royal Server</a> support</li>
+				<li>Track and list VMware instances from one or more VMware hosts</li>
+				<li>Manage VMware instances (power on, power off, suspend, shutdown, restart, etc.)</li>
+				<li>Automatically display data in the dashboard</li>
+				<li>Configurable auto refresh</li>
+				<li>Connect to the console of any VMware instance</li>
+				<li>Support for launching RDP, VNC or SSH ad hoc connections to instances</li>
+			</ul>
+			<br />
+			<strong>Advanced Features</strong>
+			<br />
+			<ul>
+				<li>Quick search</li>
+				<li>Column filter</li>
+				<li>Secure Gateway support</li>
+			</ul>
+		]]></Description>
+    <SupportedProtocols>VMware</SupportedProtocols>
+    <ObjectTypeName>RoyalVMwareConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#vmware</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>VMwarePlugin</PluginFrameworks>
+</PluginInfo>

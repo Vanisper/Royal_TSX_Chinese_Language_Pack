@@ -1,0 +1,122 @@
+// Common Strings
+"Okay" = "OK";
+"Cancel" = "取消";
+
+// Servers
+"RFBDefaultServerName" = "新服务器";
+"RFBUntitledServerName" = "未命名服务器";
+"Connecting..." = "正在连接...";
+"Connect" = "连接";
+"DisplayIsPort" = "显示 %d 对应端口 %d";
+"PortIsDisplay" = "端口 %d 是显示 %d";
+"PortNum" = "端口 %d";
+
+// Error Actions
+"OpenConnection" = "打开连接";
+"NoNamedServer" = "找不到名称为“%@”的服务器";
+"NoConnection" = "无法连接到服务器 %@ 的端口 %d";
+"NoReconnection" = "无法重新连接到服务器 %@";
+"NotVNC" = "不是 VNC 服务器";
+"UnknownAuthType" = "未知 authType %@";
+"UnknownAuthResult" = "未知 authResult %@";
+"AuthenticationFailed" = "身份验证失败";
+"AuthenticationFailedTooMany" = "身份验证失败（尝试次数过多）";
+"AuthenticationRequired" = "需要身份验证";
+"UnknownMessageType" = "未知消息类型 %@";
+"UnknownMessageTypeLastEncoding" = "未知消息类型 %@。（上一个编码为 %@）";
+"ServerReports" = "服务器报告";
+"ARDAuthWarning" = "远程服务器仅允许 Apple Remote Desktop 客户端连接。请更改服务器设置，以允许 VNC 查看器控制屏幕。";
+
+// Profiles
+"defaultProfileName" = "默认配置";
+"EditProfiles" = "编辑连接配置...";
+
+// Couldn't connect
+"ConnectRefused" = "服务器拒绝了连接";
+"ConnectTimedOut" = "连接尝试超时";
+
+// SSH-related errors
+"SshError" = "无法与服务器 %@ 建立 SSH 连接";
+"SshKeyMismatch" = "远程 SSH 标识已更改。可能有人正在窃听此次通信";
+"SshCatError" = "cat 命令错误";
+"SshScriptError" = "ssh 脚本权限错误";
+"SshQuit" = "ssh 程序异常退出";
+"SshPermissionDenied" = "SSH 服务器拒绝了权限";
+"SshConnectionClosed" = "SSH 服务器已关闭连接";
+
+// errors with SSH tunnel after having established SSH connection
+"TunnelNoConnection" = "无法与服务器 %@ 的端口 %d 建立隧道连接";
+"TunnelSocketErr" = "socket() 错误：%s";
+"TunnelConnectErr" = "connect() 错误：%s";
+"TunnelAdminProhibited" = "SSH 服务器禁止了此类型的隧道";
+"TunnelOther" = "SSH 服务器无法连接到 VNC 服务器";
+
+// SSH prompts
+"FirstTimeHeader" = "首次连接";
+"FirstTimeMessage" = "无法验证服务器的真实性。服务器密钥指纹为 %@。您确定要继续连接吗？";
+
+// Connection Terminated
+"ConnectionTerminated" = "连接已终止";
+"Reconnect" = "重新连接";
+"ServerClosed" = "服务器关闭了连接";
+"ServerError" = "写入服务器：%s";
+"ProtocolError" = "协议错误";
+"ZrleTooSmall" = "ZRLE 编码：矩形数据不足";
+"ZrleUnknownSubencoding" = "ZRLE 编码：遇到未知子编码 %d";
+"ZlibHexInflateError" = "ZlibHex 编码：inflate 错误：%s";
+"ZlibHexDeflateTooSmall" = "ZlibHex 编码：deflate 大小小于预期";
+"ZlibNeedsDict" = "Zlib 编码：inflate 需要字典";
+"ZlibInflateError" = "Zlib 编码：inflate 错误：%s";
+"TightBadSubencoding" = "Tight 编码：收到未知的子编码";
+"TightUnknownFilter" = "Tight 编码：收到未知过滤器代码 %@";
+"TightZeroPalette" = "Tight 编码：收到长度为 0 的调色板";
+"TightWrongJpeg" = "Tight 编码：收到错误的 JPEG 数据。";
+"UnknownRectangle" = "未知矩形编码 %d";
+"UnknownRectangleLastEncoding" = "未知矩形编码 %d。（上一个编码为 %@）";
+"TightInflateInitErrorWith" = "InflateInit 错误：%s。\n";
+"TightInflateInitError" = "InflateInit 错误\n";
+"TightInflateErr" = "Inflate 错误\n";
+"ZlibInflateInitErr" = "Zlib 编码：inflateInit：%s。\n";
+"ZlibHexInflateErr" = "ZlibHex inflate 错误：%s";
+"InflateInit" = "Inflate 初始化错误：%d，%s";
+"InflateError" = "Inflate 错误：%d，%s";
+"InflateMem" = "Inflate：无法分配内存";
+
+// Fullscreen
+"FullscreenHeader" = "您的连接即将进入全屏模式";
+"Fullscreen" = "全屏";
+"FullscreenReason1" = "您可以按相应的快捷键返回窗口模式 ";
+"FullscreenReason2" = "您也可以随时在“偏好设置”中修改此快捷键。";
+"FullscreenNoKeyHeader" = "警告：没有退出全屏的快捷键";
+"FullscreenNoKey" = "当前未设置用于返回窗口模式的快捷键。您可以在偏好设置中设置此快捷键。确定要在没有退出快捷键的情况下进入全屏模式吗？";
+
+// Listener
+"listenStart" = "开启";
+"listenStop" = "停止";
+"listenRunning" = "监听已开启";
+"listenStopped" = "监听已关闭";
+"listenAcceptMessage" = "来自 %@:%d 的连接";
+
+// Rendezvous
+"AddressResolveFailed" = "地址解析失败";
+"Resolving" = "正在解析...";
+
+// Connection Info
+"ConnectionStatistics" = "已接收字节数：%@\n表示字节数：%@\n压缩比：%.2f\n矩形数：%u\n编码：%@";
+"ServerInfo" = "VNC 协议版本：%d.%d\nVNC 屏幕尺寸：%dx%d\n协议参数\n\t每像素位数：%d\n\t深度：%d\n\t字节序：%@\n\t真彩色：%@\n\t最大值 (r/g/b)：%d/%d/%d\n\t偏移量 (r/g/b)：%d/%d/%d";
+"big-endian" = "大端序";
+"little-endian" = "小端序";
+"yes" = "是";
+"no" = "否";
+
+// Paste to Remote Server
+"PasteConversionHeader" = "剪贴板与 Latin-1 不兼容";
+"PasteConversionBody" = "VNC 协议仅支持以 Latin-1 编码发送剪贴板文本。仍要发送吗？这可能会导致字符丢失。";
+"PasteAnyways" = "仍然粘贴";
+
+// FX
+"VNC Plugin (Chicken)" = "VNC 插件 (Chicken)";
+"Enter password to retry:" = "重试密码：";
+"Reconnecting ..." = "正在重新连接...";
+"SSH Password:" = "SSH 密码：";
+"OK" = "OK";

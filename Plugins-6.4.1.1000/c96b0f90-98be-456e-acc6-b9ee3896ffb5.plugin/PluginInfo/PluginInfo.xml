@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>c96b0f90-98be-456e-acc6-b9ee3896ffb5</ID>
+    <Name>VNC (based on Apple Screen Sharing)</Name>
+    <ShortDescription>Connect to macOS, Windows and Linux using VNC.</ShortDescription>
+    <Description><![CDATA[
+			<i>Connect to macOS, Windows and Linux Computers using Apple Remote Desktop/Screen Sharing or VNC.</i>
+			<br /><br />
+			The <strong>Apple Screen Sharing</strong> based VNC plugin enables you to connect to remote hosts running <strong>Apple Remote Desktop/Screen Sharing</strong> or <strong>VNC</strong>. Since it uses Apple Screen Sharing as it's underlying core you can expect first class support for connecting to remote Macs.
+			<br /><br />
+			<strong>Security</strong>
+			<br />
+			<ul>
+				<li>macOS authentication support</li>
+				<li>Support for requesting permissions to access remote Mac</li>
+				<li>Support for locking remote Mac's screen</li>
+				<li>Apple Screen Sharing encryption support</li>
+				<li>VNC authentication support</li>
+			</ul>
+			<br />
+			<strong>Advanced Features</strong>
+			<br />
+			<ul>
+				<li>Clipboard sharing support</li>
+				<li>Drag and Drop file transfer support</li>
+				<li>Multi-Display support</li>
+				<li>Screen scaling support</li>
+				<li>Support for adaptive and full quality settings</li>
+				<li>Customizable keyboard behavior</li>
+				<li>Secure Gateway support</li>
+			</ul>
+		]]></Description>
+    <SupportedProtocols>VNC</SupportedProtocols>
+    <ObjectTypeName>RoyalVNCConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#vnc</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>ScreenSharingKit;ScreenSharingPlugin</PluginFrameworks>
+</PluginInfo>

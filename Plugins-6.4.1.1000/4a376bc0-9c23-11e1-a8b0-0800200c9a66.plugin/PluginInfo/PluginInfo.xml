@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>4a376bc0-9c23-11e1-a8b0-0800200c9a66</ID>
+    <Name>Web (based on WebKit)</Name>
+    <ShortDescription>Access web-based management consoles.</ShortDescription>
+    <Description><![CDATA[
+			<i>Seamlessly integrate browser-based management consoles into your workflow.</i>
+			<br /><br />
+			Quickly access <strong>web pages</strong> or <strong>web based management consoles</strong>, such as Firewall or Router configuration interfaces, System Center Web Consoles, Sharepoint, etc.
+			<br /><br />
+			The convenient Auto Fill feature lets you automatically complete web forms based on values defined in the connection or assigned credentials.
+			<br /><br />
+			<strong>Auto Fill</strong>
+			<br />
+			<ul>
+				<li>Automatically fill login forms</li>
+				<li>HTML element to value mapping</li>
+				<li>Replacement token support</li>
+				<li>Credential management support</li>
+				<li>Option to retry auto fill until success</li>
+				<li>Support for configuring auto fill delay</li>
+			</ul>
+			<br />
+			<strong>Advanced Features</strong>
+			<br />
+			<ul>
+				<li>Navigation Toolbar</li>
+				<li>Built-in download manager</li>
+				<li>Basic authentication support</li>
+				<li>Customizable cookie storage mode</li>
+				<li>Customizable User Agent String</li>
+				<li>Secure Gateway support</li>
+			</ul>
+		]]></Description>
+    <SupportedProtocols>HTTP;HTTPS</SupportedProtocols>
+    <ObjectTypeName>RoyalWebConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#web</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>WebConnectionPlugin</PluginFrameworks>
+</PluginInfo>

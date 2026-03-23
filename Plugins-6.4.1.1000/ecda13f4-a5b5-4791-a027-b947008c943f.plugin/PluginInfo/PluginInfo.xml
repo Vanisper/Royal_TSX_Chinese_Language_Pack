@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PluginInfo>
+    <ID>ecda13f4-a5b5-4791-a027-b947008c943f</ID>
+    <Name>Terminal Services</Name>
+    <ShortDescription>View and manage terminal service sessions.</ShortDescription>
+    <Description><![CDATA[
+			<i>View and manage terminal service sessions from one or more computers.</i>
+			<br /><br />
+			The <strong>Terminal Services</strong> management connection allows you to manage terminal service sessions from multiple computers all in one view. A variety of important management tasks such as reset (force logoff), send message and restart server, are available.
+			<br /><br />
+			<strong>General</strong>
+			<br />
+			<ul>
+				<li>Requires <a href="https://www.royalapps.com/server" target="_blank">Royal Server</a></li>
+				<li>Track and list all terminal service sessions</li>
+				<li>Automatically display data in the dashboard</li>
+				<li>Reset (force logoff) terminal service sessions</li>
+				<li>Send a message to terminal service sessions</li>
+				<li>Restart the server</li>
+			</ul>
+			<br />
+			<strong>Advanced Features</strong>
+			<br />
+			<ul>
+				<li>Quick search</li>
+				<li>Column filter</li>
+			</ul>
+		]]></Description>
+    <SupportedProtocols>TerminalServices</SupportedProtocols>
+    <ObjectTypeName>RoyalTerminalServicesConnection</ObjectTypeName>
+    <Version>6.4.0.1000</Version>
+    <MinAppVersion>6.4.0.1000</MinAppVersion>
+    <MaxAppVersion>9999.0.0.0</MaxAppVersion>
+    <PluginURL>https://www.royalapps.com/ts/mac/features-all#terminalservices</PluginURL>
+    <PublisherName>Royal Apps</PublisherName>
+    <PublisherURL>https://www.royalapps.com</PublisherURL>
+    <PublisherEMail>office@royalapps.com</PublisherEMail>
+    <SupportURL>https://www.royalapps.com/go/support</SupportURL>
+    <SupportEMail>support+royaltsx@royalapps.com</SupportEMail>
+    <LicenseType>Closed Source</LicenseType>
+    <LicenseURL>https://www.royalapps.com/ts/mac/terms</LicenseURL>
+    <PluginFrameworks>TerminalServicesPlugin</PluginFrameworks>
+</PluginInfo>

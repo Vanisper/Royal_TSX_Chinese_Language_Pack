@@ -1,0 +1,37 @@
+"VNC Connection Settings" = "VNC 连接设置";
+"VNC Template Settings" = "VNC 模板设置";
+"VNC Default Settings" = "VNC 默认设置";
+"Advanced" = "高级";
+
+"With a VNC connection you can connect to remote computers supporting VNC or Apple Remote Desktop/Screen Sharing (standard port is 5900)." = "通过 VNC 连接，您可以连接支持 VNC 或 Apple 远程桌面/屏幕共享的远程计算机（标准端口为 5900）。";
+"Port/Display:" = "端口/显示:";
+"The \"Display Name\" must not be empty." = " \"显示名称\" 不能为空.";
+"The \"Computer Name\" must not be empty." = " \"计算机名称\" 不能为空.";
+
+"Debug Logging is enabled in the VNC plugin settings. Please note that this can severely impact performance and should only be used for diagnosing issues. Do you want to continue with Debug Logging or do you want to disable it?" = "VNC 插件设置中已启用调试日志记录。请注意，这可能会严重影响性能，因此只应在诊断问题时使用。您要继续启用调试日志记录，还是要禁用它？";
+"Continue with Debug Logging" = "继续调试日志记录";
+"Disable Debug Logging and Continue" = "禁用调试日志记录并继续";
+
+"Display Options" = "显示选项";
+"Configure display settings, like the color depth and scaling, for this VNC connection." = "为此 VNC 连接配置显示设置，例如颜色深度和缩放。";
+"Scaling" = "缩放";
+"Enable Scaling" = "开启缩放";
+"Colors" = "颜色";
+"256 Colors (8 bit)" = "256 颜色 (8 bit)";
+"High Color (16 bit)" = "高色彩 (16 bit)";
+"True Color (24 bit)" = "真彩色 (24 bit)";
+
+"Use this page to change advanced VNC settings like shared connections and clipboard redirection." = "使用此页面更改高级 VNC 设置，例如共享连接和剪贴板重定向。";
+"Shared Connection" = "共享连接";
+"Clipboard Redirection" = "剪贴板重定向";
+
+"Input" = "输入";
+"Input Mode" = "输入模式";
+"Configure input settings, like keyboard behaviour, for this VNC connection." = "为此VNC连接配置输入设置，例如键盘行为.";
+"Keyboard Input" = "键盘输入";
+"None (Observe Mode)" = "没有 (观察模式)";
+"Forward keyboard shortcuts only if not in use locally" = "仅在本地不使用时转发键盘快捷键";
+"Forward keyboard shortcuts even if in use locally" = "转发键盘快捷键（即使在本地使用）";
+"Forward all keyboard shortcuts and hotkeys" = "转发所有键盘快捷键和热键";
+"When '{0}' is enabled, Royal TSX requires 'Accessibility' permissions. Click the button below to open the 'Security & Privacy' pane of System Preferences, then activate Royal TSX in the 'Accessibility' section." = "启用 '{0}' 后, Royal TSX需要“可访问性”权限。单击下面的按钮以打开“系统偏好设置”的“安全性和隐私”窗格，然后在“辅助功能”部分中激活Royal TSX。";
+"When '{0}' is enabled, Royal TSX requires 'Accessibility' permissions. Click the button below to open the 'Privacy & Security' pane of System Settings, then activate Royal TSX in the 'Accessibility' section." = "启用 '{0}' 后，Royal TSX 需要“辅助功能”权限。 单击下面的按钮打开系统设置的“隐私和安全”面板，然后在“辅助功能”部分激活 Royal TSX。";
